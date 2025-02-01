@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!--<script src="https://unpkg.com/@swup/fragment-plugin"></script>-->
+
+    <!--STYLESHEETS-->
+    <link rel = "stylesheet" href = "css/main.css">
+
+    <title>GPCdS Photos</title>
+</head>
+<body>
+  
+    <div class="mainContainer" id="blur">
+    <!--HEADER-->
+        <header id = "header">
+
+            <nav class = "headContainer">
+        
+                <a href = "./index.html" id = "photosButton" class = "button">PHOTOS</a> 
+            
+                <!--<h1 class = "logo">GPCdS</h1>-->
+                <img src="/photos/GPCdS_logo.png" alt="GPCdS" class="logo">
+            
+                <a href = "./aboutMe.html" id = "aboutMeButton" class = "button">ABOUT ME</a>
+
+            </nav>
+            
+        </header>
+
+        <!--PAGE CONTENT-->
+        <div id="swup" class="transition-fade">
+
+            <div class="filterContainer">
+
+                <div class="filter">
+                    <p>FILTERS :</p>
+                    <button data-name=".black&white" class="btn btn-one">BLACK & WHITE</button>
+                    <button data-name=".color" class="btn btn-two">COLOR</button>
+                    <button data-name=".digital" class="btn btn-three">DIGITAL</button>
+                    <button data-name=".35mm" class="btn btn-four">35MM</button>
+                <!-- <button data-name=".medium_format" class="btn btn-five">MEDIUM FORMAT</button> -->
+                </div>
+
+            </div>
+
+            <div class="grid">
+                
+                
+            </div>
+
+            <div class="no-images-message" style="display: none;">
+                No images to be displayed
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+
+        <p>© GPCdS | email: <a href="gustavo.pcs06@gmail.com">gustavo.pcs06@gmail.com</a></p>
+
+    </footer>
+
+    <div id="imageModal" class="modal" onclick="closeModal()">
+        <img class="modal-content" id="modalImage"/>
+        <div class="modal-description" id="modalDescription"></div>
+   
+    </div>
+    
+
+    <!-- Link to external JavaScript file -->
+    <script type="module" src="js/main.js"></script>
+    <script src="js/jquery3.7.1.js"></script>
+
+</body>
+</html>

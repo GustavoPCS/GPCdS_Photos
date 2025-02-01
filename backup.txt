@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!--<script src="https://unpkg.com/@swup/fragment-plugin"></script>-->
+
+    <!--STYLESHEETS-->
+    <link rel = "stylesheet" href = "css/main.css">
+
+    <title>GPCdS Photos</title>
+</head>
+<body>
+  
+    <div class="mainContainer" id="blur">
+    <!--HEADER-->
+        <header id = "header">
+
+            <nav class = "headContainer">
+        
+                <a href = "./index.html" id = "photosButton" class = "button">PHOTOS</a> 
+            
+                <h1 class = "logo">GPCdS</h1> 
+            
+                <a href = "./aboutMe.html" id = "aboutMeButton" class = "button">ABOUT ME</a>
+
+            </nav>
+            
+        </header>
+
+        <!--PAGE CONTENT-->
+        <div id="swup" class="transition-fade">
+
+            <div class="filterContainer">
+
+                <div class="filter">
+                    <p>FILTERS :</p>
+                    <button data-name=".black&white" class="btn btn-one">BLACK & WHITE</button>
+                    <button data-name=".color" class="btn btn-two">COLOR</button>
+                    <button data-name=".digital" class="btn btn-three">DIGITAL</button>
+                    <button data-name=".35mm" class="btn btn-four">35MM</button>
+                <!-- <button data-name=".medium_format" class="btn btn-five">MEDIUM FORMAT</button> -->
+                </div>
+
+            </div>
+
+            <div class="grid">
+                
+                
+            </div>
+
+            <div class="no-images-message" style="display: none;">
+                No images to be displayed
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+
+        <p>© i_dont_have_a_copyright_lol | sHOoT mE A wEb eMaiL at <a href="gustavo.pcs06@gmail.com">gustavo.pcs06@gmail.com</a></p>
+
+    </footer>
+
+    <div id="imageModal" class="modal" onclick="closeModal()">
+        <img class="modal-content" id="modalImage"/>
+        <div class="modal-description" id="modalDescription"></div>
+   
+    </div>
+    
+
+    <!-- Link to external JavaScript file -->
+    <script type="module" src="js/main.js"></script>
+    <script src="js/jquery3.7.1.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>  
+    
+    <!--<script src="https://unpkg.com/@swup/fragment-plugin"></script>-->
+
+    <!--STYLESHEETS-->
+    <link rel = "stylesheet" href = "css/main.css">
+
+    <title>GPCdS About Me</title>
+
+</head>
+<body>
+  
+    <!--HEADER-->
+    <header id = "header">
+
+        <nav class = "headContainer">
+       
+            <a href = "./index.html" id = "photosButton" class = "button">Photos</a> 
+        
+            <h1 class = "logo">GPCdS</h1> 
+        
+            <a href = "./aboutMe.html" id = "aboutMeButton" class = "button">About Me</a>
+
+        </nav>
+        
+    </header>
+
+    <main id="swup" class="transition-fade">
+
+        <img class = "aboutMePhoto" src="Photos/me lol.JPG" alt="Image 2" >
+
+        <div class="aboutMeBody">
+
+            <h1>Who the hell made this website?</h1>
+            <p>Hey there. Welcome to my photography portfolio. I’m Gustavo—artist, photographer, and probably a human being. 
+                Or at least mostly human.
+            If you find yourself wondering whether this entire “About Me” section sounds suspiciously well-written, 
+            you’re absolutely right: there’s a 60/40 chance 
+             ChatGPT might’ve had a hand in crafting this. Or a robotic claw, if you prefer that metaphor.
+            </p>
+
+            <p>I shoot photos for a living because the idea of a “traditional 9-to-5” made me break into a cold sweat. 
+                My specialty lies in making fleeting moments feel like they hold infinite meaning. 
+                Some would call that pretentious, I call it vibes. You know the vibes.
+                The ones that make you stare at a photo of a foggy forest and suddenly question your life choices while also appreciating the geometry of light.
+            </p>
+
+            <p>My style blends equal parts poetic nostalgia, spontaneous randomness, and a touch of “did an AI generate this 
+                for me?” vibes—because
+                even my artistic process is deeply self-aware and slightly digital. My camera and I have had countless arguments
+                 about artistic intent, aesthetics,
+                  and whether I should just let a neural network finish this artist statement instead. Spoiler alert: I let the neural network win.
+            </p>
+
+            <p>
+                So, if you’re here because you value genuine artistry, cool lighting, or you have a taste for what might 
+                be considered “postmodern visual irony” (thanks, ChatGPT),
+                you’re in the right place. Browse my work, pick your favorite photo, and let it haunt you. Maybe you’ll feel something deep and inexplicable about it. Maybe you’ll just think, “Wow, good lighting.” Either way, mission accomplished.
+
+            </p>
+
+            <p>
+
+                With love,
+                <br>Gustavo (Human or not, we’ll never know—probably mostly ChatGPT by now.)
+
+            </p>
+
+        </div>
+    
+
+    </main>
+
+    <footer>
+
+        <p>© i_dont_have_a_copyright_lol | sHOoT mE A wEb eMaiL at <a href="gustavo.pcs06@gmail.com">gustavo.pcs06@gmail.com</a></p>
+
+    </footer>
+   
+    <!-- Link to external JavaScript file -->
+    <script type="module" src="js/main.js"></script>
+    
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// main.js
+
+// main.js
+
+import Swup from 'https://unpkg.com/swup@4?module';
+
+const swup = new Swup();
+
+/////////////////////////////////////////////////////////
+
+
+
+/////////////////////////////////////////////////////////
+
+$(document).ready(function(){
+    $('.btn').on('click', function() {
+        $(this).toggleClass('active'); // Toggle 'active' class on button click
+    });
+});
+
+/////////////////////////////////////////////////////////
+
+
+async function loadImages() {
+    try {
+        // Fetch the JSON file
+        const response = await fetch('./photos.json');
+        const images = await response.json();
+  
+        // Select the container where images will be displayed
+        const imageGrid = document.querySelector('.grid');
+  
+        // Loop through each image object and create <img> elements
+        images.forEach((image) => {
+            const img = document.createElement('img');
+            img.src = image.src;
+            img.alt = image.alt || 'Image'; // Default alt text if missing
+            img.className = image.class; // Add classes from JSON
+            img.loading = 'lazy'; // Enable lazy loading
+            img.setAttribute('data-title', image.dataTitle);
+            img.setAttribute('data-location', image.dataLocation);
+            img.setAttribute('data-equipment', image.dataEquipment);
+  
+            // Append the image to the grid
+            imageGrid.appendChild(img);
+
+            setupFilters(); // Reinitialize the filters for the loaded images
+            setupEventListeners(); // Bind click events to the newly added images
+
+        });
+
+        // Reapply the filter logic to the newly added images
+        
+    } catch (error) {
+        console.error('Error loading images:', error);
+    }
+}
+
+
+
+////////////////////////////////////////////////////////
+
+$(document).ready(function () {
+
+    $('.photo').click(function () {
+
+        const description = $(this).data('title') + "<br>" + $(this).data('location') + "<br>" + $(this).data('equipment');
+
+        openModal(this, description);
+
+    });
+});
+
+
+
+
+
+function setupEventListeners() {
+    // Bind click events for photo elements
+    $('.photo').off('click').on('click', function () { // Use off to avoid duplicate listeners
+        const description = $(this).data('title') + "<br>" + 
+                            $(this).data('location') + "<br>" + 
+                            $(this).data('equipment');
+        openModal(this, description);
+    });
+
+    // Bind close modal functionality
+    $('#modalCloseButton').off('click').on('click', closeModal);
+}
+
+
+
+
+
+
+
+function openModal(image, description) {
+    const modal = document.getElementById("imageModal");
+    const modalImage = document.getElementById("modalImage");
+    const modalDescription = document.getElementById('modalDescription');
+    
+    modal.classList.add("show"); // Show modal
+    modalImage.src = image.src; // Set the modal image source to the clicked image
+    modalDescription.innerHTML = description;
+    
+
+    // Set the left position of the description
+    modalDescription.style.left = `${(window.innerWidth / 2) - (modalImage.offsetWidth / 2)}px`; // Set to half the width
+    //modalDescription.style.transform = 'translateX(-93%)'; // Shift left by half its own width
+
+
+    var blur = document.getElementById('blur');
+    blur.classList.toggle('active');
+
+}
+
+window.openModal = openModal;
+
+function closeModal() {
+    const modal = document.getElementById("imageModal");
+    
+    modal.classList.remove("show"); // Hide modal
+    
+    // Optional: Remove blur
+    document.getElementById('blur')?.classList.remove('active');
+}
+
+window.closeModal = closeModal;
+
+
+////////////////////////////////////////////////////////
+
+// Define a named function for setting up filters
+function setupFilters() {
+    // Array to hold active filters
+    var activeFilters = [];
+
+    // Function to disable/enable filters based on selection
+    function toggleFilterAvailability() {
+        if (activeFilters.includes('.black&white')) {
+            $('.filter button[data-name=".color"]').prop('disabled', true).addClass('disabled');
+        } else {
+            $('.filter button[data-name=".color"]').prop('disabled', false).removeClass('disabled');
+        }
+
+        if (activeFilters.includes('.color')) {
+            $('.filter button[data-name=".black&white"]').prop('disabled', true).addClass('disabled');
+        } else {
+            $('.filter button[data-name=".black&white"]').prop('disabled', false).removeClass('disabled');
+        }
+
+        if (activeFilters.includes('.digital')) {
+            $('.filter button[data-name=".35mm"]').prop('disabled', true).addClass('disabled');
+            $('.filter button[data-name=".medium_format"]').prop('disabled', true).addClass('disabled');
+        } else if (activeFilters.includes('.35mm')) {
+            $('.filter button[data-name=".digital"]').prop('disabled', true).addClass('disabled');
+            $('.filter button[data-name=".medium_format"]').prop('disabled', true).addClass('disabled');
+        } else if (activeFilters.includes('.medium_format')) {
+            $('.filter button[data-name=".digital"]').prop('disabled', true).addClass('disabled');
+            $('.filter button[data-name=".35mm"]').prop('disabled', true).addClass('disabled');
+        } else {
+            $('.filter button[data-name=".35mm"]').prop('disabled', false).removeClass('disabled');
+            $('.filter button[data-name=".medium_format"]').prop('disabled', false).removeClass('disabled');
+            $('.filter button[data-name=".digital"]').prop('disabled', false).removeClass('disabled');
+        }
+
+    }
+
+    // Filter button click event
+    $('.filter button').on("click", function () {
+        var value = $(this).attr('data-name');
+
+        // Prevent clicks on disabled filters
+        if ($(this).prop('disabled')) {
+            return;
+        }
+
+        // Toggle specific filters
+        if (activeFilters.includes(value)) {
+            // If filter is already active, remove it
+            activeFilters = activeFilters.filter(function(item) {
+                return item !== value;
+            });
+        } else {
+            // Add the filter if it's not already active
+            activeFilters.push(value);
+        }
+
+        // Update the availability of other filters
+        toggleFilterAvailability();
+
+        // First, hide all images by fading out
+        $('.grid img').removeClass('show').addClass('hide');
+
+        // Delay to allow the fade-out animation, then set `display: none`
+        setTimeout(function() {
+            $('.grid img').each(function() {
+                var img = $(this);
+
+                var matchesAllFilters = activeFilters.every(function(filter) {
+                    return img.hasClass(filter);
+                });
+
+                if (activeFilters.length === 0 || matchesAllFilters) {
+                    img.removeClass('hide').addClass('show').css('display', 'block');
+                } else {
+                    img.css('display', 'none');
+                }
+            });
+        }, 500);
+
+        // Highlight active buttons
+        $('.filter button').removeClass('active'); // Remove active class from all buttons
+        activeFilters.forEach(function(filter) {
+            $('.filter button[data-name="' + filter + '"]').addClass('active'); // Add active class to currently active filters
+        });
+    });
+}
+
+////////////////////////////////////////////////////////////////
+
+function setActiveButton() {
+    const buttons = document.querySelectorAll('.button');
+    const currentPath = window.location.pathname;
+
+    // Ensure all buttons lose the 'active' class first
+    buttons.forEach(button => {
+        button.classList.remove('active');
+    });
+
+    // Add 'active' class to the matching button
+    buttons.forEach(button => {
+        const buttonPath = new URL(button.href).pathname; // Get the pathname from the button's href
+        if (buttonPath === currentPath) {
+            button.classList.add('active');
+        }
+    });
+}
+
+
+///////////////////////////////////////////////////////////////
+
+$(document).ready(function () {
+    loadImages();
+    setupFilters();
+    setActiveButton();
+    setupEventListeners(); // Initialize event listeners
+});
+
+swup.hooks.on('page:view', () => {
+    loadImages();
+    setupFilters();
+    setActiveButton();
+    setupEventListeners(); // Re-bind event listeners after Swup content replacement
+});
+
+
+
+////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//main.css
+
+/* Import the custom font */
+@font-face {
+    font-family: 'FuturaBook'; /* Name to reference in CSS */
+    src: url('../fonts/FuturaBook.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    background-color: black;
+}
+
+
+
+
+body {
+    margin: 0; /* Remove default margin */
+    font-family: FuturaBook, sans-serif; /* Set a default font */
+}
+
+.mainContainer#blur {
+
+    transition: filter 0.7s ease;
+
+}
+
+.mainContainer#blur.active {
+
+    filter: blur(20px);
+    pointer-events: none;
+    user-select: none;
+
+}
+
+/* Modal background */
+.modal {
+    visibility: hidden;
+    position: fixed;
+    z-index: 1000; /* On top of other content */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+
+}
+
+/* Modal content (centered image) */
+.modal-content {
+    
+    display: block;
+    margin: 4% auto auto auto;
+    max-width: 80%;
+    max-height: 80%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    opacity: 0; /* Start transparent */
+    transition: 0.4s; /* Fade-in for the image */
+
+}
+
+.modal-description {
+
+    color:white;
+    background-color: transparent;
+    font-size: 1.1rem;
+    text-align: left;
+    margin-top: 1rem;
+    position: absolute; /* Use absolute positioning */
+
+    opacity: 0;
+    transition: opacity 1s ease;
+
+}
+
+/* Show modal when active */
+.modal.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* When modal is active, fade in the image */
+.modal.show .modal-content,
+.modal.show .modal-description {
+    opacity: 1;
+}
+
+/* Modal close button */
+.modal .close {
+
+}
+
+
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+    display: none;
+}
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+.example {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+header {
+    padding: 1.5rem; /* Padding around the header */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 2rem;
+}
+
+.logo {
+
+    padding: 1rem 2rem 1rem 2rem;
+
+}
+
+.button {
+    will-change: transform;
+    padding: 0 0 0 0;
+    transition: transform 2s ease;
+    transform-origin: center;
+    text-decoration: none;
+}
+
+.button::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease;
+}
+
+.button.active::after {
+    width: 100%;
+}
+
+.button:hover {
+    transform: scale(1.08);
+}
+
+.headContainer {
+    display: flex; /* Use Flexbox for layout */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    
+    font-size: 1.5rem;
+    color: white;
+}
+
+.transition-fade {
+    opacity: 1;
+    transition: opacity 0.4s ease;
+    flex: 1;
+    min-height: 77vh;
+}
+
+html.is-animating .transition-fade {
+    opacity: 0;
+}
+
+
+.filter {
+    display: flex;
+    margin: 0 auto; /* Center the filter container horizontally */
+    margin-bottom: 1rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 120%;
+    color: white;
+    gap: 2rem; 
+    width: 100%; /* Ensures the container takes the full width */
+}
+
+.filter p {
+    font-size: 22px;
+    cursor: default;
+    letter-spacing: 1px;
+ /* Automatically aligns the paragraph to the right */
+}
+
+.disabled {
+    opacity: 0.5;
+    pointer-events: none; /* Disables clicking */
+    color: light grey;
+    font-size: 100px
+}
+
+@media (max-width: 768px) {
+    .filter {
+        flex-direction: column; /* Stack the filter buttons vertically on small screens */
+        align-items: flex-start; /* Align items to the start (left) */
+    }
+    
+    .filter p {
+        margin: 0; /* Remove the large left margin for smaller screens */
+        text-align: center; /* Optionally center text if you want */
+    }
+}
+
+
+
+.btn {
+
+    cursor:pointer;
+    background-color: transparent;
+    color: white;
+    padding: 5px 10px;
+    border: 2px;
+    border-radius: 8px;
+    will-change: transform;
+    transition: transform 0.5s ease;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+    transform-origin: center;
+    font-size: 100%;
+    white-space: nowrap;
+
+}
+
+.btn:hover {
+    transform: scale(1.1); /* Makes the button grow by 10% */
+}
+
+.btn.active {
+    background-color: rgba(255, 255, 255, 0.412); /* Opaque white background */
+    transform: scale(1.1); /* Slightly larger background on active */
+}
+
+.grid {
+    --gap: 16px;
+    --num-cols: 3; /* Number of columns */
+    max-width: 1300px;
+    margin: 0 auto; /* Center the grid horizontally */
+    box-sizing: border-box;
+    padding: var(--gap);
+
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr); /* 3 columns for larger screens */
+    grid-auto-rows: 400px;
+    gap: var(--gap); /* Space between grid items */
+}
+
+.grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    opacity: 1;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    opacity: 1; /* Default opacity (visible) */
+    transform: scale(1); /* Default scale (normal size) */
+}
+
+.grid img:hover {
+
+    transform: scale(1.06);
+
+}
+
+.grid-col-2 {
+
+    grid-column: span 2;
+
+}
+
+.grid-row-2 {
+
+    grid-row: span 2;
+
+}
+
+.grid img.hide {
+    opacity: 0; /* Fade out */
+    pointer-events: none; /* Disable pointer events during transition */
+}
+
+.grid img.show {
+    opacity: 1; /* Fade in */
+}
+
+
+
+
+main {
+    display: flex; /* Use Flexbox layout */
+    align-items: flex-start; /* Align items to the top of the container */
+    justify-content: center; /* Center the content horizontally */
+    gap: 5rem; /* Add space between the image and text */
+    padding: 1rem; /* Add some padding for spacing */
+}
+
+
+
+.aboutMePhoto {
+
+    max-width: 30%; /* Make the image take up 40% of the container width */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 4rem;
+    margin-top: 1rem;
+
+}
+
+
+.aboutMeBody {
+
+    color: white;
+    overflow: hidden;
+    min-height: 600px;
+
+}
+
+.aboutMeBody h1{
+
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    padding-bottom: 1.6rem;
+
+}
+
+.aboutMeBody p{
+
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    padding-bottom: 2rem;
+    max-width: 40rem;
+
+}
+
+footer {
+    font-style: italic;
+    text-align: right;
+    color: white;
+    background-color: black;
+
+
+}
+
+footer a{
+
+    padding: 0 0 0 0;
+    padding-right: 1rem;
+
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .grid {
+        --num-cols: 2; /* Adjust number of columns for smaller screens */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//photos.json
+
+[
+    {
+      "src": "Photos/1.JPG",
+      "alt": "Image 1",
+      "class": "photo .black&white .35mm",
+      "dataTitle": "' Hail Pepeka '",
+      "dataLocation": "São Paulo, Brasil 2024",
+      "dataEquipment": "Nikon N55"
+    },
+    {
+      "src": "Photos/10.JPG",
+      "alt": "Image 2",
+      "class": "photo .black&white .35mm",
+      "dataTitle": "' Urinal '",
+      "dataLocation": "São Paulo, Brasil 2024",
+      "dataEquipment": "Nikon N55"
+    },
+    {
+      "src": "Photos/3.JPG",
+      "alt": "Image 1",
+      "class": "photo .color .digital",
+      "dataTitle": "' Midday Armageddon '",
+      "dataLocation": "Chicago, USA 2024",
+      "dataEquipment": "Nikon D40x"
+    },
+    {
+      "src": "Photos/4.JPG",
+      "alt": "Image 2",
+      "class": "photo .color .35mm",
+      "dataTitle": "' Johan Chi Portrait I '",
+      "dataLocation": "Chicago, USA 2024",
+      "dataEquipment": "Nikon N55"
+    },
+    {
+      "src": "Photos/5.JPG",
+      "alt": "Image 1",
+      "class": "photo .black&white .digital",
+      "dataTitle": "' Not Greece '",
+      "dataLocation": "Cincinnati, USA 2024",
+      "dataEquipment": "Nikon D40x"
+    },
+    {
+      "src": "Photos/6.JPG",
+      "alt": "Image 2",
+      "class": "photo .color .digital",
+      "dataTitle": "' Natália Portrait I '",
+      "dataLocation": "Fort Wayne, USA 2024",
+      "dataEquipment": "Nikon D40x"
+    },
+    {
+      "src": "Photos/7.JPG",
+      "alt": "Image 2",
+      "class": "photo .color .digital",
+      "dataTitle": "' Roadrunner '",
+      "dataLocation": "Fort Wayne, USA 2024",
+      "dataEquipment": "Nikon D40x"
+    },
+    {
+      "src": "Photos/8.JPG",
+      "alt": "Image 2",
+      "class": "photo .black&white .35mm",
+      "dataTitle": "' Guilherme Portrait I (LUZ)'",
+      "dataLocation": "São Paulo, Brasil 2024",
+      "dataEquipment": "Nikon N55"
+    },
+    {
+      "src": "Photos/9.JPG",
+      "alt": "Image 2",
+      "class": "photo .color .35mm",
+      "dataTitle": "' Smell The Flowers '",
+      "dataLocation": "Fort Wayne, USA 2024",
+      "dataEquipment": "Nikon N55"
+    }
+  ]
+  
