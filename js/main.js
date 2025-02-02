@@ -22,7 +22,7 @@ $(document).ready(function(){
 async function loadImages() {
     try {
         // Fetch the JSON file
-        const response = await fetch('./photos.json');
+        const response = await fetch('/photos.json');
         const images = await response.json();
   
         // Select the container where images will be displayed
