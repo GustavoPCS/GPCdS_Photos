@@ -16,7 +16,7 @@
       "dataEquipment": "Nikon N55"
     },
     {
-      "src": "./photos/3.jpg",
+      "src": "./photos/3.JPG",
       "alt": "Image 1",
       "class": "photo color digital",
       "dataTitle": "Midday Armageddon",
@@ -32,7 +32,7 @@
       "dataEquipment": "Nikon N55"
     },
     {
-      "src": "./photos/5.jpg",
+      "src": "./photos/5.JPG",
       "alt": "Image 1",
       "class": "photo black&white digital",
       "dataTitle": "Not Greece",
@@ -40,7 +40,7 @@
       "dataEquipment": "Nikon D40x"
     },
     {
-      "src": "./photos/6.jpg",
+      "src": "./photos/6.JPG",
       "alt": "Image 2",
       "class": "photo color digital",
       "dataTitle": "Natália Portrait I",
@@ -48,7 +48,7 @@
       "dataEquipment": "Nikon D40x"
     },
     {
-      "src": "./photos/7.jpg",
+      "src": "./photos/7.JPG",
       "alt": "Image 2",
       "class": "photo color digital",
       "dataTitle": "Roadrunner",
