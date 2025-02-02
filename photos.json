@@ -10,7 +10,7 @@
   {
     "src": "./photos/10.jpg",
     "alt": "Image 2",
-    "class": "photo black&white 35mm",
+    "class": "photo .black&white .35mm",
     "dataTitle": "Urinal",
     "dataLocation": "São Paulo, Brasil 2024",
     "dataEquipment": "Nikon N55"
