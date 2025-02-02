@@ -2,7 +2,7 @@
     {
       "src": "./photos/1.JPG",
       "alt": "Image 1",
-      "class": "photo .black&white .35mm",
+      "class": "photo black&white 35mm",
       "dataTitle": "Hail Pepeka",
       "dataLocation": "São Paulo, Brasil 2024",
       "dataEquipment": "Nikon N55"
@@ -10,7 +10,7 @@
     {
       "src": "./photos/10.JPG",
       "alt": "Image 2",
-      "class": "photo .black&white .35mm",
+      "class": "photo black&white 35mm",
       "dataTitle": "Urinal",
       "dataLocation": "São Paulo, Brasil 2024",
       "dataEquipment": "Nikon N55"
@@ -18,7 +18,7 @@
     {
       "src": "./photos/3.JPG",
       "alt": "Image 1",
-      "class": "photo .color .digital",
+      "class": "photo color digital",
       "dataTitle": "Midday Armageddon",
       "dataLocation": "Chicago, USA 2024",
       "dataEquipment": "Nikon D40x"
@@ -26,7 +26,7 @@
     {
       "src": "./photos/4.JPG",
       "alt": "Image 2",
-      "class": "photo .color .35mm",
+      "class": "photo color 35mm",
       "dataTitle": "Johan Chi Portrait I",
       "dataLocation": "Chicago, USA 2024",
       "dataEquipment": "Nikon N55"
@@ -34,7 +34,7 @@
     {
       "src": "./photos/5.JPG",
       "alt": "Image 1",
-      "class": "photo .black&white .digital",
+      "class": "photo black&white digital",
       "dataTitle": "Not Greece",
       "dataLocation": "Cincinnati, USA 2024",
       "dataEquipment": "Nikon D40x"
@@ -42,7 +42,7 @@
     {
       "src": "./photos/6.JPG",
       "alt": "Image 2",
-      "class": "photo .color .digital",
+      "class": "photo color digital",
       "dataTitle": "Natália Portrait I",
       "dataLocation": "Fort Wayne, USA 2024",
       "dataEquipment": "Nikon D40x"
@@ -50,7 +50,7 @@
     {
       "src": "./photos/7.JPG",
       "alt": "Image 2",
-      "class": "photo .color .digital",
+      "class": "photo color digital",
       "dataTitle": "Roadrunner",
       "dataLocation": "Fort Wayne, USA 2024",
       "dataEquipment": "Nikon D40x"
@@ -58,7 +58,7 @@
     {
       "src": "./photos/8.JPG",
       "alt": "Image 2",
-      "class": "photo .black&white .35mm",
+      "class": "photo black&white 35mm",
       "dataTitle": "Guilherme Portrait I (LUZ)",
       "dataLocation": "São Paulo, Brasil 2024",
       "dataEquipment": "Nikon N55"
@@ -66,7 +66,7 @@
     {
       "src": "./photos/9.JPG",
       "alt": "Image 2",
-      "class": "photo .color .35mm",
+      "class": "photo color 35mm",
       "dataTitle": "Smell The Flowers",
       "dataLocation": "Fort Wayne, USA 2024",
       "dataEquipment": "Nikon N55"
