@@ -1,6 +1,6 @@
 [
   {
-    "src": "Photos/1.jpg",
+    "src": "./photos/1.jpg",
     "alt": "Image 1",
     "class": "photo .black&white .35mm",
     "dataTitle": "Hail Pepeka",
@@ -8,7 +8,7 @@
     "dataEquipment": "Nikon N55"
   },
   {
-    "src": "Photos/10.jpg",
+    "src": "./photos/10.jpg",
     "alt": "Image 2",
     "class": "photo .black&white .35mm",
     "dataTitle": "Urinal",
@@ -16,7 +16,7 @@
     "dataEquipment": "Nikon N55"
   },
   {
-    "src": "Photos/3.JPG",
+    "src": "./photos/3.JPG",
     "alt": "Image 1",
     "class": "photo .color .digital",
     "dataTitle": "Midday Armageddon",
@@ -24,7 +24,7 @@
     "dataEquipment": "Nikon D40x"
   },
   {
-    "src": "Photos/4.jpg",
+    "src": "./photos/4.jpg",
     "alt": "Image 2",
     "class": "photo .color .35mm",
     "dataTitle": "Johan Chi Portrait I",
@@ -32,7 +32,7 @@
     "dataEquipment": "Nikon N55"
   },
   {
-    "src": "Photos/5.JPG",
+    "src": "./photos/5.JPG",
     "alt": "Image 1",
     "class": "photo .black&white .digital",
     "dataTitle": "Not Greece",
@@ -40,7 +40,7 @@
     "dataEquipment": "Nikon D40x"
   },
   {
-    "src": "Photos/6.JPG",
+    "src": "./photos/6.JPG",
     "alt": "Image 2",
     "class": "photo .color .digital",
     "dataTitle": "Natália Portrait I",
@@ -48,7 +48,7 @@
     "dataEquipment": "Nikon D40x"
   },
   {
-    "src": "Photos/7.JPG",
+    "src": "./photos/7.JPG",
     "alt": "Image 2",
     "class": "photo .color .digital",
     "dataTitle": "Roadrunner",
@@ -56,7 +56,7 @@
     "dataEquipment": "Nikon D40x"
   },
   {
-    "src": "Photos/8.jpg",
+    "src": "./photos/8.jpg",
     "alt": "Image 2",
     "class": "photo .black&white .35mm",
     "dataTitle": "Guilherme Portrait I (LUZ)",
@@ -64,7 +64,7 @@
     "dataEquipment": "Nikon N55"
   },
   {
-    "src": "Photos/9.jpg",
+    "src": "./photos/9.jpg",
     "alt": "Image 2",
     "class": "photo .color .35mm",
     "dataTitle": "Smell The Flowers",
