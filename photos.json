@@ -1,6 +1,6 @@
 [
     {
-      "src": "./photos/1.JPG",
+      "src": "./photos/FIRST.JPG",
       "alt": "Image 1",
       "class": "photo black&white 35mm",
       "dataTitle": "Hail Pepeka",
@@ -8,7 +8,7 @@
       "dataEquipment": "Nikon N55"
     },
     {
-      "src": "./photos/10.JPG",
+      "src": "./photos/10.jpg",
       "alt": "Image 2",
       "class": "photo black&white 35mm",
       "dataTitle": "Urinal",
