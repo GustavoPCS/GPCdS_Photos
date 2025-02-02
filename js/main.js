@@ -22,7 +22,7 @@ $(document).ready(function(){
 async function loadImages() {
     try {
         // Fetch the JSON file
-        const response = await fetch('/photos.json');
+        const response = await fetch('./photos.json');
         const images = await response.json();
   
         // Select the container where images will be displayed
@@ -34,7 +34,7 @@ async function loadImages() {
             img.src = image.src;
             img.alt = image.alt || 'Image'; // Default alt text if missing
             img.className = image.class; // Add classes from JSON
-            img.loading = 'lazy'; // Enable lazy loading
+            //img.loading = 'lazy'; // Enable lazy loading
             img.setAttribute('data-title', image.dataTitle);
             img.setAttribute('data-location', image.dataLocation);
             img.setAttribute('data-equipment', image.dataEquipment);
