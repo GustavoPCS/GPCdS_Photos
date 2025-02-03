@@ -56,9 +56,9 @@ html {
     z-index: 1000; /* On top of other content */
     left: 0;
     top: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
 
 }
 
@@ -148,7 +148,7 @@ a {
 
 @media (max-width: 900px) {
     .logo {
-        width: 30vw; /* Slightly increase size on small screens */
+        width: 28vw; /* Slightly increase size on small screens */
     }
 }
 
@@ -321,6 +321,21 @@ html.is-animating .transition-fade {
     opacity: 1; /* Fade in */
 }
 
+/*@media (max-width: 900px) {
+
+
+
+}*/
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -332,7 +347,7 @@ html.is-animating .transition-fade {
 main {
     display: flex; /* Align images and text horizontally */
     align-items: flex-start; /* Align content at the top */
-    gap: 13em; /* Space between the image container and text */
+    gap: 7em; /* Space between the image container and text */
     padding: 0em; /* Add padding for breathing room */
 }
 
@@ -343,7 +358,7 @@ main {
     grid-template-columns: 1fr 1fr; /* Two-column structure */
     grid-template-rows: auto auto auto;
     gap: 0; /* No spacing between items */
-    margin-left: 11em; /* Push it towards the right */
+    margin-left: 27em; /* Push it towards the right */
 }
 
 .aboutMePhotos {
@@ -528,7 +543,7 @@ footer a{
     .photoOfMe5 {
         width: 70%;
         left: -1em;
-        top: -15em;
+        top: -13em;
         transform: rotate(-15deg);
         z-index: 9;
     }
