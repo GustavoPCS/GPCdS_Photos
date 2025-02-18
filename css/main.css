@@ -220,19 +220,6 @@ html.is-animating .transition-fade {
     font-size: 100px
 }
 
-@media (max-width: 768px) {
-    .filter {
-        flex-direction: column; /* Stack the filter buttons vertically on small screens */
-        align-items: flex-start; /* Align items to the start (left) */
-    }
-    
-    .filter p {
-        margin: 0; /* Remove the large left margin for smaller screens */
-        text-align: center; /* Optionally center text if you want */
-    }
-}
-
-
 
 .btn {
 
@@ -313,24 +300,6 @@ html.is-animating .transition-fade {
 
 .grid img.show {
     opacity: 1; /* Fade in */
-}
-
-
-@media (max-width: 900px) {
-    .logo {
-        width: 30vw; /* Slightly increase size on small screens */
-    }
-
-    .button {
-        font-size: 0.8em; /* Slightly smaller font size */
-    }
-
-    .filter{
-
-        
-
-    }
-    
 }
 
 
@@ -445,8 +414,8 @@ main {
 .aboutMeBody p.right-align {
 
     margin-left: 10em;
-
     max-width: 500px; /* Optional: Limit the width for readability */
+    
 }
 
 
@@ -509,9 +478,6 @@ footer a{
 
     .aboutMePhotos {
         position: relative; /* Remove absolute positioning */
-        width: 70%; /* Make images smaller */
-        max-width: 300px; /* Keep images proportional */
-        transform: none; /* Remove rotations */
     }
 
     .photoOfMe1 {
@@ -566,8 +532,60 @@ footer a{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1024px) {
     .grid {
-        --num-cols: 2; /* Adjust number of columns for smaller screens */
+        --num-cols: 2;
     }
+
+    .logo {
+        width: 30vw;
+    }
+
+    .button {
+        font-size: 0.8em; 
+    }
+
+    .photoOfMe1 {
+        left: -2em;
+    }
+
+    .photoOfMe2 {
+        left: 2em;
+    }
+
+    .photoOfMe3 {
+        left: -2em;
+    }
+
+    .photoOfMe4 {
+        left: 2em;
+    }
+
+    .photoOfMe5 {
+        left: -2em;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .filter {
+        flex-direction: column;
+        justify-content: center;
+    }
+    
 }
