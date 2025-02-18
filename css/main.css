@@ -395,6 +395,7 @@ main {
     color: white;
     line-height: 1.5; /* Increase line height for better readability */
     text-align: justify;
+    margin:auto;
 }
 
 .aboutMeBody p:not(:last-of-type)::first-letter {
@@ -415,7 +416,7 @@ main {
 
     margin-left: 10em;
     max-width: 500px; /* Optional: Limit the width for readability */
-    
+
 }
 
 
@@ -456,6 +457,22 @@ footer a{
 
 }
 
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 900px) {
     main {
         flex-direction: column; /* Stack images on top, text below */
@@ -474,10 +491,12 @@ footer a{
         justify-content: center;
         position: relative;
         height: auto; /* Auto height so images adjust */
+        background-color: red;
     }
 
     .aboutMePhotos {
         position: relative; /* Remove absolute positioning */
+        
     }
 
     .photoOfMe1 {
@@ -527,29 +546,44 @@ footer a{
 }
 
 
-::-webkit-scrollbar {
-    display: none;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (max-width: 1024px) {
     .grid {
         --num-cols: 2;
     }
+
+
+
+
+
+    .modal {
+        display: flex;
+        align-items: center; /* Center vertically */
+        justify-content: center; /* Center horizontally */
+        flex-direction: column;
+    }
+
+    .modal-content {
+        max-width: 80%; /* Adjust for responsiveness */
+        max-height: 80vh; /* Prevent images from exceeding the screen height */
+        margin: 0; /* Remove any default margin */
+    }
+
+    .modal-description {
+
+        color:white;
+        background-color: transparent;
+        font-size: 1.1rem;  
+        margin-top: 0.5rem;
+        margin-left: -65%;
+        position: relative; 
+    
+        opacity: 0;
+        transition: opacity 1s ease;
+    
+    }
+
+
 
     .logo {
         width: 30vw;
@@ -577,6 +611,18 @@ footer a{
 
     .photoOfMe5 {
         left: -2em;
+    }
+
+
+
+    .aboutMeBody {
+        text-align: left;
+    }
+
+    .aboutMeBody p.right-align {
+
+        margin-left: 0em;
+    
     }
 
 }
