@@ -146,12 +146,6 @@ a {
 
 }
 
-@media (max-width: 900px) {
-    .logo {
-        width: 28vw; /* Slightly increase size on small screens */
-    }
-}
-
 .button {
     will-change: transform;
     padding: 0 0 0 0;
@@ -321,11 +315,23 @@ html.is-animating .transition-fade {
     opacity: 1; /* Fade in */
 }
 
-/*@media (max-width: 900px) {
 
+@media (max-width: 900px) {
+    .logo {
+        width: 30vw; /* Slightly increase size on small screens */
+    }
 
+    .button {
+        font-size: 0.8em; /* Slightly smaller font size */
+    }
 
-}*/
+    .filter{
+
+        
+
+    }
+    
+}
 
 
 
@@ -358,7 +364,7 @@ main {
     grid-template-columns: 1fr 1fr; /* Two-column structure */
     grid-template-rows: auto auto auto;
     gap: 0; /* No spacing between items */
-    margin-left: 27em; /* Push it towards the right */
+    margin-left: 15em; /* Push it towards the right */
 }
 
 .aboutMePhotos {
@@ -377,39 +383,39 @@ main {
     left: -3em;
     top: 0;
     transform: rotate(-5deg);
-    z-index: 5;
+    z-index: 1;
 }
 
 .photoOfMe2 {
     width: 70%;
-    left: 5em;
+    left: 7em;
     top: 8em;
     transform: rotate(5deg);
-    z-index: 4;
+    z-index: 2;
 }
 
 .photoOfMe3 {
     width: 70%;
-    left: -2em;
-    top: 16em;
+    left: -4em;
+    top: 18em;
     transform: rotate(-8deg);
     z-index: 3;
 }
 
 .photoOfMe4 {
     width: 70%;
-    left: 4em;
+    left: 6em;
     top: 25em;
     transform: rotate(10deg);
-    z-index: 2;
+    z-index: 4;
 }
 
 .photoOfMe5 {
     width: 70%;
-    left: -1em;
-    top: 34em;
+    left: -5em;
+    top: 30em;
     transform: rotate(-15deg);
-    z-index: 1;
+    z-index: 5;
 }
 
 
