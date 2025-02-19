@@ -52,6 +52,7 @@ html {
 /* Modal background */
 .modal {
     visibility: hidden;
+    opacity: 0;
     position: fixed;
     z-index: 1000; /* On top of other content */
     left: 0;
