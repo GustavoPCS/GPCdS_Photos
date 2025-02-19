@@ -52,7 +52,6 @@ html {
 /* Modal background */
 .modal {
     visibility: hidden;
-    opacity: 0;
     position: fixed;
     z-index: 1000; /* On top of other content */
     left: 0;
@@ -565,7 +564,7 @@ footer a{
     }
 
     .modal-content {
-        max-width: 80%; /* Adjust for responsiveness */
+        max-width: 90%; /* Adjust for responsiveness */
         max-height: 80vh; /* Prevent images from exceeding the screen height */
         margin: 0; /* Remove any default margin */
     }
@@ -576,11 +575,12 @@ footer a{
         background-color: transparent;
         font-size: 1.1rem;  
         margin-top: 0.5rem;
-        margin-left: -65%;
+        margin-left: -8%;
+        text-align: center;
         position: relative; 
-    
         opacity: 0;
         transition: opacity 1s ease;
+        
     
     }
 
@@ -633,6 +633,12 @@ footer a{
     .filter {
         flex-direction: column;
         justify-content: center;
+        font-size: 18px;
+        gap: 0.5rem;
+    }
+
+    .modal{
+        opacity: 0;
     }
     
 }
