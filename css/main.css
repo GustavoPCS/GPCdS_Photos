@@ -504,6 +504,10 @@ footer a{
         
     }
 
+    .aboutMePhotos h1 {
+        top: -10em;
+    }
+
     .photoOfMe1 {
         width: 70%; 
         left: -3em;
