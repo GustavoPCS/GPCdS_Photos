@@ -265,6 +265,7 @@ html.is-animating .transition-fade {
     grid-template-columns: repeat(var(--num-cols), 1fr); /* 3 columns for larger screens */
     grid-auto-rows: 400px;
     gap: var(--gap); /* Space between grid items */
+
 }
 
 .grid img {
@@ -557,9 +558,6 @@ footer a{
     }
 
 
-
-
-
     .modal {
         display: flex;
         align-items: center; /* Center vertically */
@@ -622,8 +620,12 @@ footer a{
 
     .aboutMeBody {
         
+
+
     }
 
+
+    
     .aboutMeBody p.right-align {
 
         margin-left: 0em;
@@ -650,6 +652,18 @@ footer a{
 
     .modal{
         opacity: 0;
+    }
+
+    .grid img {
+        
+        
+
+    }
+
+    .grid {
+
+        grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+
     }
     
 }
