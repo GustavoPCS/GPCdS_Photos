@@ -228,8 +228,6 @@ function setupFilters() {
 function setActiveButton() {
     const buttons = document.querySelectorAll('.button');
     const currentPath = window.location.pathname;
-    console.log(currentPath);
-
     // Ensure all buttons lose the 'active' class first
     buttons.forEach(button => {
         button.classList.remove('active');
@@ -238,6 +236,8 @@ function setActiveButton() {
     // Add 'active' class to the matching button
     buttons.forEach(button => {
         const buttonPath = new URL(button.href).pathname; // Get the pathname from the button's href
+        console.log(buttonPath);
+        console.log(currentPath);
         if ((buttonPath === currentPath)) {
             button.classList.add('active');
         }else if (currentPath === '/'){
