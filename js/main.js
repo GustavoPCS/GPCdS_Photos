@@ -242,6 +242,8 @@ function setActiveButton() {
             button.classList.add('active');
         }else if (currentPath === '/'){
             buttons[0].classList.add('active');
+        }else if(currentPath === '/GPCdS_Photos/'){
+            buttons[0].classList.add('active');
         }
     });
 }

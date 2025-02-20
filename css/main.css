@@ -495,7 +495,7 @@ footer a{
         justify-content: center;
         position: relative;
         height: auto; /* Auto height so images adjust */
-        background-color: red;
+        background-color: green;
     }
 
     .aboutMePhotos {
