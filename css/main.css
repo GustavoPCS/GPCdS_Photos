@@ -602,14 +602,16 @@ footer a{
     .photosOfMe-container {
         width: 80%; /* Allow images to take more space */
         max-width: 400px;
-        max-height: 1100px; /* Prevent them from getting too large */
+        max-height: 100%; /* Prevent them from getting too large */
         margin-left: 0em;
         margin-right: 3em;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         position: relative;
-        height: auto; /* Auto height so images adjust */
+        object-fit: contain;
+        height: 1250px;
+        background-color: green;
 
     }
 
@@ -669,7 +671,6 @@ footer a{
     }
 
     .aboutMeBody {
-        
         font-size: 1em;
         max-width: 80%; /* Ensure text is readable */
     }
