@@ -327,19 +327,18 @@ html.is-animating .transition-fade {
 main {
     display: flex; /* Align images and text horizontally */
     align-items: flex-start; /* Align content at the top */
-    gap: 7em; /* Space between the image container and text */
-    padding: 0em; /* Add padding for breathing room */
 }
 
 .photosOfMe-container {
     position: relative;
-    display: grid;
-    width: 350px; /* Control the overall collage width */
-    grid-template-columns: 1fr 1fr; /* Two-column structure */
-    grid-template-rows: auto auto auto;
-    gap: 0; /* No spacing between items */
-    margin-left: 15em; /* Push it towards the right */
+    display: flex;
+    width: 350px;
+    gap: 0;
+    margin-left: 8%;
+    flex-shrink: 0;
 }
+
+
 
 .aboutMePhotos {
     width: 100%;
@@ -353,7 +352,7 @@ main {
 }
 
 .photoOfMe1 {
-    width: 70%; 
+    width: 80%; 
     left: -3em;
     top: 0;
     transform: rotate(-5deg);
@@ -361,7 +360,7 @@ main {
 }
 
 .photoOfMe2 {
-    width: 70%;
+    width: 80%;
     left: 7em;
     top: 8em;
     transform: rotate(5deg);
@@ -369,7 +368,7 @@ main {
 }
 
 .photoOfMe3 {
-    width: 70%;
+    width: 80%;
     left: -4em;
     top: 18em;
     transform: rotate(-8deg);
@@ -377,7 +376,7 @@ main {
 }
 
 .photoOfMe4 {
-    width: 70%;
+    width: 80%;
     left: 6em;
     top: 25em;
     transform: rotate(10deg);
@@ -385,7 +384,7 @@ main {
 }
 
 .photoOfMe5 {
-    width: 70%;
+    width: 80%;
     left: -5em;
     top: 30em;
     transform: rotate(-15deg);
@@ -395,12 +394,18 @@ main {
 
 
 .aboutMeBody {
-    max-width: 800px; /* Adjust as needed */
     position: relative;
+    max-width: 800px;
+    display: flex; /* Enables flexbox */
+    justify-content: center; /* Centers content horizontally */
+    /* Aligns content vertically */
+    gap: 1rem; /* Space between text and images */
     color: white;
-    line-height: 1.5; /* Increase line height for better readability */
+    line-height: 1.5;
     text-align: justify;
-    margin:auto;
+    /* Center the entire section */
+    flex-wrap: wrap; /* Makes it responsive */
+
 }
 
 .aboutMeBody p:not(:last-of-type)::first-letter {
@@ -473,12 +478,99 @@ footer a{
 
 
 
+@media (max-width: 1200px) {
+
+    .photosOfMe-container img{
+        
+        width: 60%;
+
+    }
+
+    .aboutMeBody{
+        font-size: 0.9em;
+    }
+
+
+}
 
 
 
 
 
-@media (max-width: 900px) {
+
+
+
+@media screen and (max-width: 1050px) {
+    .grid {
+        --num-cols: 2;
+    }
+
+
+    .modal {
+        display: flex;
+        align-items: center; /* Center vertically */
+        justify-content: center; /* Center horizontally */
+        flex-direction: column;
+    }
+
+    .modal-content {
+        max-width: 90%; /* Adjust for responsiveness */
+        max-height: 80vh; /* Prevent images from exceeding the screen height */
+        margin: 0; /* Remove any default margin */
+    }
+
+    .modal-description {
+
+        color:white;
+        background-color: transparent;
+        font-size: 1.1rem;  
+        margin-top: 0.5rem;
+        margin-left: -8%;
+        text-align: center;
+        position: relative; 
+        opacity: 0;
+        transition: opacity 1s ease;
+        
+    
+    }
+
+
+
+    .logo {
+        width: 30vw;
+    }
+
+    .button {
+        font-size: 0.8em; 
+    }
+
+
+    .photosOfMe-container img{
+        width: 60%;
+        margin-left: 5%;
+    }
+
+
+    .aboutMeBody {
+        
+        
+
+    }
+
+
+    
+    .aboutMeBody p.right-align {
+
+        margin-left: 0em;
+    
+    }
+
+}
+
+
+
+
+@media (max-width: 950px) {
     main {
         flex-direction: column; /* Stack images on top, text below */
         align-items: center; /* Center everything */
@@ -488,15 +580,21 @@ footer a{
     .photosOfMe-container {
         width: 80%; /* Allow images to take more space */
         max-width: 400px;
-        max-height: 1100px; /* Prevent them from getting too large */
-        margin-left: 0;
-        margin-right: 0;
+        max-height: 1270px; /* Prevent them from getting too large */
+        margin-left: 0em;
+        margin-right: 4em;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         position: relative;
         height: auto; /* Auto height so images adjust */
-        background-color: green;
+
+    }
+
+    .photosOfMe-container img{
+        
+        width: 60%;
+
     }
 
     .aboutMePhotos {
@@ -550,93 +648,13 @@ footer a{
 
     .aboutMeBody {
         
+        font-size: 1em;
         max-width: 80%; /* Ensure text is readable */
     }
 }
 
 
 
-@media screen and (max-width: 1024px) {
-    .grid {
-        --num-cols: 2;
-    }
-
-
-    .modal {
-        display: flex;
-        align-items: center; /* Center vertically */
-        justify-content: center; /* Center horizontally */
-        flex-direction: column;
-    }
-
-    .modal-content {
-        max-width: 90%; /* Adjust for responsiveness */
-        max-height: 80vh; /* Prevent images from exceeding the screen height */
-        margin: 0; /* Remove any default margin */
-    }
-
-    .modal-description {
-
-        color:white;
-        background-color: transparent;
-        font-size: 1.1rem;  
-        margin-top: 0.5rem;
-        margin-left: -8%;
-        text-align: center;
-        position: relative; 
-        opacity: 0;
-        transition: opacity 1s ease;
-        
-    
-    }
-
-
-
-    .logo {
-        width: 30vw;
-    }
-
-    .button {
-        font-size: 0.8em; 
-    }
-
-    .photoOfMe1 {
-        left: -2em;
-    }
-
-    .photoOfMe2 {
-        left: 2em;
-    }
-
-    .photoOfMe3 {
-        left: -2em;
-    }
-
-    .photoOfMe4 {
-        left: 2em;
-    }
-
-    .photoOfMe5 {
-        left: -2em;
-    }
-
-
-
-    .aboutMeBody {
-        
-
-
-    }
-
-
-    
-    .aboutMeBody p.right-align {
-
-        margin-left: 0em;
-    
-    }
-
-}
 
 
 @media (max-width: 768px) {
