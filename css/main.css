@@ -334,7 +334,7 @@ main {
     display: flex;
     width: 350px;
     gap: 0;
-    margin-left: 8%;
+    margin-left: 18%;
     flex-shrink: 0;
 }
 
@@ -474,7 +474,14 @@ footer a{
 
 
 
+@media (max-width: 1300px) {
 
+    .photosOfMe-container {
+        margin-left: 13%;
+    }
+
+
+}
 
 
 
@@ -482,8 +489,12 @@ footer a{
 
     .photosOfMe-container img{
         
-        width: 60%;
+        width: 70%;
 
+    }
+
+    .photosOfMe-container {
+        margin-left: 11%;
     }
 
     .aboutMeBody{
@@ -495,8 +506,14 @@ footer a{
 
 
 
+@media (max-width: 1115px) {
+
+    .photosOfMe-container {
+        margin-left: 5%;
+    }
 
 
+}
 
 
 
@@ -545,10 +562,15 @@ footer a{
     }
 
 
+    .photosOfMe-container {
+        margin-left: 8%;
+    }
+
+
     .photosOfMe-container img{
         width: 60%;
-        margin-left: 5%;
     }
+
 
 
     .aboutMeBody {
@@ -580,9 +602,9 @@ footer a{
     .photosOfMe-container {
         width: 80%; /* Allow images to take more space */
         max-width: 400px;
-        max-height: 1270px; /* Prevent them from getting too large */
+        max-height: 1100px; /* Prevent them from getting too large */
         margin-left: 0em;
-        margin-right: 4em;
+        margin-right: 3em;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
