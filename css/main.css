@@ -601,8 +601,9 @@ footer a{
 
     .photosOfMe-container {
         width: 80%; /* Allow images to take more space */
-        max-width: 100%;
-        max-height: 100%; /* Prevent them from getting too large */
+        max-width: 500px;
+        max-height: 1000px; /* Prevent them from getting too large */
+        height: 1000px;
         margin-left: 0em;
         margin-right: 3em;
         display: flex;
