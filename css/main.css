@@ -473,6 +473,15 @@ footer a{
 }
 
 
+@media (min-width: 1669px){
+
+    .photosOfMe-container {
+        margin-left: 25%;
+    }
+
+}
+
+
 
 @media (max-width: 1300px) {
 
