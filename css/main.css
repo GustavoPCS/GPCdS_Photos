@@ -609,14 +609,14 @@ footer a{
     }
 
     .photosOfMe-container {
-        width: 80%; /* Allow images to take more space */
+         /* Allow images to take more space */
         max-width: 500px;
         max-height: 1250px; /* Prevent them from getting too large */
         height: auto;
-        margin-left: 0em;
+        margin-left: 1.5em;
         margin-right: 2em;
         display: flex;
-        flex-wrap: wrap;    
+        flex-direction: column;   
         justify-content: center;
         position: relative;
         background-color: green;
@@ -625,6 +625,7 @@ footer a{
 
     .photosOfMe-container img{
         
+        left: 5em;
         width: 60%;
 
     }
@@ -634,12 +635,8 @@ footer a{
         
     }
 
-    .aboutMePhotos h1 {
-        top: -10em;
-    }
 
     .photoOfMe1 {
-        width: 70%; 
         left: -3em;
         top: 0em;
         transform: rotate(-5deg);
@@ -647,34 +644,30 @@ footer a{
     }
     
     .photoOfMe2 {
-        width: 70%;
         left: 5em;
-        top: -5em;
+        top: 0em;
         transform: rotate(5deg);
         z-index: 6;
     }
     
     .photoOfMe3 {
-        width: 70%;
         left: -2em;
-        top: -9em;
+        top: 0em;
         transform: rotate(-8deg);
         z-index: 7;
     }
     
     .photoOfMe4 {
-        width: 70%;
         left: 4em;
-        top: -11em;
+        top: 0em;
         transform: rotate(10deg);
         z-index: 8;
     }
     
     .photoOfMe5 {
-        width: 70%;
         left: -1em;
         top: 0em;
-        transform: rotate(-15deg);
+        transform: rotate(0deg);
         z-index: 9;
     }
 
