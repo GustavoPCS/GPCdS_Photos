@@ -609,7 +609,7 @@ footer a{
     }
 
     .photosOfMe-container {
-         /* Allow images to take more space */
+        width:80%;
         max-width: 500px;
         max-height: 1250px; /* Prevent them from getting too large */
         height: auto;
@@ -638,7 +638,7 @@ footer a{
 
     .photoOfMe1 {
         left: -3em;
-        top: 0em;
+        top: 2em;
         transform: rotate(-5deg);
         z-index: 5;
     }
@@ -652,21 +652,21 @@ footer a{
     
     .photoOfMe3 {
         left: -2em;
-        top: 0em;
+        top: -3em;
         transform: rotate(-8deg);
         z-index: 7;
     }
     
     .photoOfMe4 {
         left: 4em;
-        top: 0em;
+        top: -3em;
         transform: rotate(10deg);
         z-index: 8;
     }
     
     .photoOfMe5 {
         left: -1em;
-        top: 0em;
+        top: -3em;
         transform: rotate(0deg);
         z-index: 9;
     }
@@ -675,6 +675,7 @@ footer a{
         font-size: 1em;
         max-width: 80%; /* Ensure text is readable */
     }
+
 }
 
 
