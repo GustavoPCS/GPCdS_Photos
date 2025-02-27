@@ -636,7 +636,7 @@ footer a{
 
 
     .photoOfMe1 {
-        left: 0em;
+        left: 2em;
         top: 3em;
         transform: rotate(-5deg);
         z-index: 5;
@@ -650,7 +650,7 @@ footer a{
     }
     
     .photoOfMe3 {
-        left: 0em;
+        left: 2em;
         top: -3em;
         transform: rotate(-8deg);
         z-index: 7;
@@ -664,7 +664,7 @@ footer a{
     }
     
     .photoOfMe5 {
-        left: 1em;
+        left: 2em;
         top: -3em;
         transform: rotate(-10deg);
         z-index: 9;
