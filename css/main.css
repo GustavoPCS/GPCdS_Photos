@@ -611,12 +611,12 @@ footer a{
     .photosOfMe-container {
         width: 80%; /* Allow images to take more space */
         max-width: 500px;
-        max-height: 1000px; /* Prevent them from getting too large */
-        height: 1000px;
+        max-height: 1250px; /* Prevent them from getting too large */
+        height: auto;
         margin-left: 0em;
-        margin-right: 3em;
+        margin-right: 2em;
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap;    
         justify-content: center;
         position: relative;
         background-color: green;
@@ -641,7 +641,7 @@ footer a{
     .photoOfMe1 {
         width: 70%; 
         left: -3em;
-        top: 1em;
+        top: 0em;
         transform: rotate(-5deg);
         z-index: 5;
     }
@@ -649,7 +649,7 @@ footer a{
     .photoOfMe2 {
         width: 70%;
         left: 5em;
-        top: -4em;
+        top: -5em;
         transform: rotate(5deg);
         z-index: 6;
     }
@@ -657,7 +657,7 @@ footer a{
     .photoOfMe3 {
         width: 70%;
         left: -2em;
-        top: -8em;
+        top: -9em;
         transform: rotate(-8deg);
         z-index: 7;
     }
@@ -665,7 +665,7 @@ footer a{
     .photoOfMe4 {
         width: 70%;
         left: 4em;
-        top: -10em;
+        top: -11em;
         transform: rotate(10deg);
         z-index: 8;
     }
@@ -673,7 +673,7 @@ footer a{
     .photoOfMe5 {
         width: 70%;
         left: -1em;
-        top: -13em;
+        top: -14em;
         transform: rotate(-15deg);
         z-index: 9;
     }
