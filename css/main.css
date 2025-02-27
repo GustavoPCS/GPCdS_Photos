@@ -327,14 +327,14 @@ html.is-animating .transition-fade {
 main {
     display: flex; /* Align images and text horizontally */
     align-items: flex-start; /* Align content at the top */
+    gap: 2em;
 }
 
 .photosOfMe-container {
     position: relative;
     display: flex;
     width: 350px;
-    gap: 0;
-    margin-left: 18%;
+    margin-left: 15%;
     flex-shrink: 0;
 }
 
@@ -362,7 +362,7 @@ main {
 .photoOfMe2 {
     width: 80%;
     left: 7em;
-    top: 8em;
+    top: 11em;
     transform: rotate(5deg);
     z-index: 2;
 }
@@ -370,7 +370,7 @@ main {
 .photoOfMe3 {
     width: 80%;
     left: -4em;
-    top: 18em;
+    top: 21em;
     transform: rotate(-8deg);
     z-index: 3;
 }
@@ -378,15 +378,15 @@ main {
 .photoOfMe4 {
     width: 80%;
     left: 6em;
-    top: 25em;
+    top: 28em;
     transform: rotate(10deg);
-    z-index: 4;
+    z-index: 5;
 }
 
 .photoOfMe5 {
     width: 80%;
     left: -5em;
-    top: 30em;
+    top: 33em;
     transform: rotate(-15deg);
     z-index: 5;
 }
@@ -399,7 +399,7 @@ main {
     display: flex; /* Enables flexbox */
     justify-content: center; /* Centers content horizontally */
     /* Aligns content vertically */
-    gap: 1rem; /* Space between text and images */
+    gap: 1rem;
     color: white;
     line-height: 1.5;
     text-align: justify;
