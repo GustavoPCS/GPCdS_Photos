@@ -369,7 +369,7 @@ main {
 
 .photoOfMe3 {
     width: 80%;
-    left: -4em;
+    right: 13em;
     top: 21em;
     transform: rotate(-8deg);
     z-index: 3;
@@ -504,6 +504,7 @@ footer a{
 
     .photosOfMe-container {
         margin-left: 11%;
+        margin-right: -9%;
     }
 
     .aboutMeBody{
@@ -581,6 +582,15 @@ footer a{
     }
 
 
+    .photoOfMe3 {
+        left: -3em;
+    }
+
+    .photoOfMe5 {
+        left: -2em;
+    }
+
+
 
     .aboutMeBody {
         
@@ -601,11 +611,10 @@ footer a{
 
 
 
-@media (max-width: 950px) {
+@media (max-width: 963px) {
     main {
         flex-direction: column; /* Stack images on top, text below */
         align-items: center; /* Center everything */
-        gap: 2em;
     }
 
     .photosOfMe-container {
