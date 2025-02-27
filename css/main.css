@@ -673,7 +673,7 @@ footer a{
     .photoOfMe5 {
         width: 70%;
         left: -1em;
-        top: -14em;
+        top: 0em;
         transform: rotate(-15deg);
         z-index: 9;
     }
