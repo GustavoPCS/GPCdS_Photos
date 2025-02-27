@@ -627,7 +627,7 @@ footer a{
         flex-direction: column;   
         justify-content: center;
         position: relative;
-        background-color: green;
+        /*background-color: green;*/
 
     }
 
