@@ -637,7 +637,7 @@ footer a{
 
     .photoOfMe1 {
         left: 0em;
-        top: 3%;
+        top: 3em;
         transform: rotate(-5deg);
         z-index: 5;
     }
