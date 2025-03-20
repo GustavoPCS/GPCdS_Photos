@@ -1,8 +1,10 @@
 // main.js
 
-import Swup from 'https://unpkg.com/swup@4?module';
+import Swup from 'https://cdn.skypack.dev/swup';
 
 const swup = new Swup();
+
+
 
 /////////////////////////////////////////////////////////
 
