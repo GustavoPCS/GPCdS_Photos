@@ -206,7 +206,7 @@ html.is-animating .transition-fade {
     justify-content: center;
     font-size: 120%;
     color: white;
-    gap: 2rem; 
+    gap: 0rem; 
     width: 100%; /* Ensures the container takes the full width */
 }
 
@@ -214,6 +214,7 @@ html.is-animating .transition-fade {
     font-size: 22px;
     cursor: default;
     letter-spacing: 1px;
+    margin-right: 1em;
  /* Automatically aligns the paragraph to the right */
 }
 
@@ -256,6 +257,7 @@ html.is-animating .transition-fade {
 .grid {
     --gap: 16px;
     --num-cols: 3; /* Number of columns */
+    --row-height: 200px;
     max-width: 1300px;
     margin: 0 auto; /* Center the grid horizontally */
     box-sizing: border-box;
@@ -272,7 +274,6 @@ html.is-animating .transition-fade {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    
     opacity: 1;
     transition: opacity 0.5s ease, transform 0.5s ease;
     opacity: 1; /* Default opacity (visible) */
@@ -334,7 +335,7 @@ main {
     position: relative;
     display: flex;
     width: 350px;
-    margin-left: 15%;
+    margin-left: 18%;
     flex-shrink: 0;
 }
 
@@ -564,7 +565,7 @@ footer a{
 
 
     .logo {
-        width: 30vw;
+        width: 35vw;
     }
 
     .button {
@@ -717,7 +718,7 @@ footer a{
 
     .grid {
 
-    
+        grid-auto-rows: 250px;
 
     }
     
