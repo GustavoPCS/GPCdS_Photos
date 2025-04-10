@@ -1,0 +1,8 @@
+  {
+    "src": "./photos/276.jpg",
+    "alt": "Photo 276",
+    "class": "photo .black&white .color .digital",
+    "dataTitle": "SAUDADE X",
+    "dataLocation": "South Bend, IN, USA 2025",
+    "dataEquipment": "Nikon D40x"
+  },

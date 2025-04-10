@@ -1,74 +1,242 @@
 [
   {
-    "src": "./photos/1.jpg",
-    "alt": "Image 1",
-    "class": "photo .black&white .35mm",
-    "dataTitle": "Hail Pepeka",
-    "dataLocation": "São Paulo, Brasil 2024",
-    "dataEquipment": "Nikon N55"
-  },
-  {
-    "src": "./photos/10.jpg",
-    "alt": "Image 2",
-    "class": "photo .black&white .35mm",
-    "dataTitle": "Urinal",
-    "dataLocation": "São Paulo, Brasil 2024",
-    "dataEquipment": "Nikon N55"
-  },
-  {
-    "src": "./photos/3.JPG",
-    "alt": "Image 1",
-    "class": "photo .color .digital",
-    "dataTitle": "Midday Armageddon",
-    "dataLocation": "Chicago, USA 2024",
-    "dataEquipment": "Nikon D40x"
-  },
-  {
-    "src": "./photos/4.jpg",
-    "alt": "Image 2",
-    "class": "photo .color .35mm",
-    "dataTitle": "Johan Chi Portrait I",
-    "dataLocation": "Chicago, USA 2024",
-    "dataEquipment": "Nikon N55"
-  },
-  {
-    "src": "./photos/5.JPG",
-    "alt": "Image 1",
+    "src": "./photos/280.jpg",
+    "alt": "Photo 280",
     "class": "photo .black&white .digital",
-    "dataTitle": "Not Greece",
-    "dataLocation": "Cincinnati, USA 2024",
+    "dataTitle": "SAUDADE I",
+    "dataLocation": "South Bend, IN, USA 2025",
     "dataEquipment": "Nikon D40x"
   },
   {
-    "src": "./photos/6.JPG",
-    "alt": "Image 2",
+    "src": "./photos/279.jpg",
+    "alt": "Photo 279",
     "class": "photo .color .digital",
-    "dataTitle": "Natália Portrait I",
-    "dataLocation": "Fort Wayne, USA 2024",
+    "dataTitle": "SAUDADE VIII",
+    "dataLocation": "Tietê, SP, Brasil 2016",
     "dataEquipment": "Nikon D40x"
   },
   {
-    "src": "./photos/7.JPG",
-    "alt": "Image 2",
+    "src": "./photos/278.jpg",
+    "alt": "Photo 278",
+    "class": "photo .black&white .digital",
+    "dataTitle": "SAUDADE IX",
+    "dataLocation": "South Bend, IN, USA 2025",
+    "dataEquipment": "Nikon D40x"
+  },
+  {
+    "src": "./photos/277.jpg",
+    "alt": "Photo 277",
     "class": "photo .color .digital",
-    "dataTitle": "Roadrunner",
-    "dataLocation": "Fort Wayne, USA 2024",
+    "dataTitle": "SAUDADE V",
+    "dataLocation": "Tietê, SP, Brasil 2016",
     "dataEquipment": "Nikon D40x"
   },
   {
-    "src": "./photos/8.jpg",
-    "alt": "Image 2",
-    "class": "photo .black&white .35mm",
-    "dataTitle": "Guilherme Portrait I (LUZ)",
-    "dataLocation": "São Paulo, Brasil 2024",
-    "dataEquipment": "Nikon N55"
+    "src": "./photos/275.jpg",
+    "alt": "Photo 275",
+    "class": "photo .color .digital",
+    "dataTitle": "SAUDADE III",
+    "dataLocation": "South Bend, IN, USA 2025",
+    "dataEquipment": "Nikon D40x"
   },
   {
-    "src": "./photos/9.jpg",
-    "alt": "Image 2",
+    "src": "./photos/274.jpg",
+    "alt": "Photo 274",
     "class": "photo .color .35mm",
-    "dataTitle": "Smell The Flowers",
-    "dataLocation": "Fort Wayne, USA 2024",
-    "dataEquipment": "Nikon N55"
+    "dataTitle": "Pomba (photo credit: Natália)",
+    "dataLocation": "Chicago, IL, USA 2024",
+    "dataEquipment": "Kodak STAR 735 - Fujifilm 400 Color"
+  },
+  {
+    "src": "./photos/273.jpg",
+    "alt": "Photo 273",
+    "class": "photo .black&white .120_film",
+    "dataTitle": "PFW Housing I",
+    "dataLocation": "Fort Wayne, IN, USA 2025",
+    "dataEquipment": "Zenobia C - Illford HP5 Plus 400"
+  },
+  {
+    "src": "./photos/272.jpg",
+    "alt": "Image 272",
+    "class": "photo .black&white .120_film",
+    "dataTitle": "PFW Housing II",
+    "dataLocation": "Fort Wayne, IN, USA 2025",
+    "dataEquipment": "Zenobia C - Illford HP5 Plus 400"
+  },
+  {
+    "src": "./photos/271.jpg",
+    "alt": "Image 271",
+    "class": "photo .black&white .120_film",
+    "dataTitle": "Graveface Museum Doll",
+    "dataLocation": "Chicago, IL, USA 2025",
+    "dataEquipment": "Zenobia C - Illford HP5 Plus 400"
+  },
+  {
+    "src": "./photos/270.jpg",
+    "alt": "Image 270",
+    "class": "photo .black&white .120_film",
+    "dataTitle": "Kristhian I",
+    "dataLocation": "Chicago, IL, USA 2025",
+    "dataEquipment": "Zenobia C - Illford HP5 Plus 400"
+  },
+  {
+    "src": "./photos/269.jpg",
+    "alt": "Image 269",
+    "class": "photo .black&white .35mm",
+    "dataTitle": "Natália VIII",
+    "dataLocation": "Chicago, IL, USA 2025",
+    "dataEquipment": "Nikon N50 - ArtistaEDU Ultra 200 B&W"
+  },
+  {
+    "src": "./photos/268.jpg",
+    "alt": "Image 268",
+    "class": "photo .black&white .35mm",
+    "dataTitle": "ERRO I",
+    "dataLocation": "Chicago, IL, USA 2025",
+    "dataEquipment": "Nikon N50 - ArtistaEDU Ultra 200 B&W"
+  },
+  {
+    "src": "./photos/267.jpg",
+    "alt": "Image 267",
+    "class": "photo .black&white .35mm",
+    "dataTitle": "ERRO II",
+    "dataLocation": "Chicago, IL, USA 2025",
+    "dataEquipment": "Nikon N50 - ArtistaEDU Ultra 200 B&W"
+  },
+  {
+    "src": "./photos/266.jpg",
+    "alt": "Image 266",
+    "class": "photo .black&white .35mm",
+    "dataTitle": "Pensando...",
+    "dataLocation": "Chicago, IL, USA 2025",
+    "dataEquipment": "Nikon N50 - ArtistaEDU Ultra 200 B&W"
+  },
+  {
+    "src": "./photos/265.jpg",
+    "alt": "Image 265",
+    "class": "photo .black&white .35mm",
+    "dataTitle": "Neurocranium",
+    "dataLocation": "Chicago, IL, USA 2025",
+    "dataEquipment": "Nikon N50 - ArtistaEDU Ultra 200 B&W"
+  },
+  {
+    "src": "./photos/264.jpg",
+    "alt": "Image 264",
+    "class": "photo .black&white .35mm",
+    "dataTitle": "Red Light Clinic II",
+    "dataLocation": "Fort Wayne, IN, USA 2025",
+    "dataEquipment": "Nikon N50 - ArtistaEDU Ultra 200 B&W"
+  },
+  {
+    "src": "./photos/263.jpg",
+    "alt": "Image 263",
+    "class": "photo .black&white .35mm",
+    "dataTitle": "Red Light Clinic I",
+    "dataLocation": "Fort Wayne, IN, USA 2025",
+    "dataEquipment": "Nikon N50 - ArtistaEDU Ultra 200 B&W"
+  },
+  {
+    "src": "./photos/262.jpg",
+    "alt": "Image 262",
+    "class": "photo .black&white .35mm",
+    "dataTitle": "D'arcy Hill",
+    "dataLocation": "Fort Wayne, IN, USA 2025",
+    "dataEquipment": "Nikon N50 - ArtistaEDU Ultra 200 B&W"
+  },
+  {
+    "src": "./photos/261.jpg",
+    "alt": "Image 261",
+    "class": "photo .black&white .35mm",
+    "dataTitle": "Ryan III",
+    "dataLocation": "Fort Wayne, IN, USA 2025",
+    "dataEquipment": "Nikon N50 - ArtistaEDU Ultra 200 B&W"
+  },
+  {
+    "src": "./photos/260.jpg",
+    "alt": "Image 260",
+    "class": "photo .black&white .35mm",
+    "dataTitle": "Ryan II",
+    "dataLocation": "Fort Wayne, IN, USA 2025",
+    "dataEquipment": "Nikon N50 - ArtistaEDU Ultra 200 B&W"
+  },
+  {
+    "src": "./photos/259.jpg",
+    "alt": "Image 259",
+    "class": "photo .black&white .35mm",
+    "dataTitle": "Ryan I",
+    "dataLocation": "Fort Wayne, IN, USA 2025",
+    "dataEquipment": "Nikon N50 - ArtistaEDU Ultra 200 B&W"
+  },
+  {
+    "src": "./photos/258.jpg",
+    "alt": "Image 258",
+    "class": "photo .black&white .35mm",
+    "dataTitle": "Martin I",
+    "dataLocation": "Fort Wayne, IN, USA 2025",
+    "dataEquipment": "Nikon N50 - ArtistaEDU Ultra 200 B&W"
+  },
+  {
+    "src": "./photos/257.jpg",
+    "alt": "Image 257",
+    "class": "photo .black&white .35mm",
+    "dataTitle": "P2 Parking Lot",
+    "dataLocation": "Fort Wayne, IN, USA 2025",
+    "dataEquipment": "Nikon N50 - ArtistaEDU Ultra 200 B&W"
+  },
+  {
+    "src": "./photos/256.jpg",
+    "alt": "Image 256",
+    "class": "photo .color .digital",
+    "dataTitle": "Tibet II",
+    "dataLocation": "Chicago, IL, USA 2025",
+    "dataEquipment": "Nikon D40x"
+  },
+  {
+    "src": "./photos/255.jpg",
+    "alt": "Image 255",
+    "class": "photo .black&white .digital",
+    "dataTitle": "Tibet I",
+    "dataLocation": "Chicago, IL, USA 2025",
+    "dataEquipment": "Nikon D40x"
+  },
+  {
+    "src": "./photos/253.jpg",
+    "alt": "Image 253",
+    "class": "photo .black&white .digital",
+    "dataTitle": "Biker",
+    "dataLocation": "Chicago, IL, USA 2025",
+    "dataEquipment": "Nikon D40x"
+  },
+  {
+    "src": "./photos/252.jpg",
+    "alt": "Image 252",
+    "class": "photo .black&white .digital",
+    "dataTitle": "Monday Worker",
+    "dataLocation": "Chicago, IL, USA 2025",
+    "dataEquipment": "Nikon D40x"
+  },
+  {
+    "src": "./photos/251.jpg",
+    "alt": "Image 251",
+    "class": "photo .black&white .digital",
+    "dataTitle": "Hatman",
+    "dataLocation": "Chicago, IL, USA 2025",
+    "dataEquipment": "Nikon D40x"
+  },
+  {
+    "src": "./photos/250.jpg",
+    "alt": "Image 250",
+    "class": "photo .black&white .digital",
+    "dataTitle": "Wait...wait...",
+    "dataLocation": "Chicago, IL, USA 2025",
+    "dataEquipment": "Nikon D40x"
+  },
+  {
+    "src": "./photos/249.jpg",
+    "alt": "Image 249",
+    "class": "photo .black&white .digital",
+    "dataTitle": "Capô aberto",
+    "dataLocation": "Chicago, IL, USA 2025",
+    "dataEquipment": "Nikon D40x"
   }
 ]
