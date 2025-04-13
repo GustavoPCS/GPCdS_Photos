@@ -502,12 +502,9 @@ swup.hooks.on('page:view', () => {
 //main.css
 
 /* Import the custom font */
-@font-face {
-    font-family: 'FuturaBook'; /* Name to reference in CSS */
-    src: url('../fonts/FuturaBook.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 
 
 * {
@@ -520,12 +517,30 @@ swup.hooks.on('page:view', () => {
 }
 
 
+img {
+    -webkit-user-drag: none;
+}
+
 
 
 body {
-    margin: 0; /* Remove default margin */
-    font-family: FuturaBook, sans-serif; /* Set a default font */
+    /*width: 1200px; /* Set a fixed width for the page */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    margin: 0 auto; /* Center the page horizontally */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    font-family: 'Lato', sans-serif; /* Set a default font */
+    font-weight: 300;
 }
+
+html {
+    overflow-x: hidden; /* Ensure the entire page allows horizontal scrolling */
+}
+
+
+
 
 .mainContainer#blur {
 
@@ -548,9 +563,9 @@ body {
     z-index: 1000; /* On top of other content */
     left: 0;
     top: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
 
 }
 
@@ -573,7 +588,7 @@ body {
     background-color: transparent;
     font-size: 1.1rem;
     text-align: left;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     position: absolute; /* Use absolute positioning */
 
     opacity: 0;
@@ -597,6 +612,13 @@ body {
 .modal .close {
 
 }
+
+
+em {
+    background-color: transparent !important;  /* Remove any background */
+    color: inherit;  /* Ensure the text color matches the rest of the content */
+}
+
 
 
 
@@ -624,7 +646,10 @@ a {
 
 .logo {
 
-    padding: 1rem 2rem 1rem 2rem;
+    width:17%;
+    min-width: 13%;
+    padding: 0 0 0 0.5em;
+    /*padding: 1rem 2rem 1rem 2rem;*/
 
 }
 
@@ -684,7 +709,7 @@ html.is-animating .transition-fade {
     justify-content: center;
     font-size: 120%;
     color: white;
-    gap: 2rem; 
+    gap: 0rem; 
     width: 100%; /* Ensures the container takes the full width */
 }
 
@@ -692,6 +717,7 @@ html.is-animating .transition-fade {
     font-size: 22px;
     cursor: default;
     letter-spacing: 1px;
+    margin-right: 1em;
  /* Automatically aligns the paragraph to the right */
 }
 
@@ -701,19 +727,6 @@ html.is-animating .transition-fade {
     color: light grey;
     font-size: 100px
 }
-
-@media (max-width: 768px) {
-    .filter {
-        flex-direction: column; /* Stack the filter buttons vertically on small screens */
-        align-items: flex-start; /* Align items to the start (left) */
-    }
-    
-    .filter p {
-        margin: 0; /* Remove the large left margin for smaller screens */
-        text-align: center; /* Optionally center text if you want */
-    }
-}
-
 
 
 .btn {
@@ -728,7 +741,9 @@ html.is-animating .transition-fade {
     transition: transform 0.5s ease;
     transition: background-color 0.5s ease, transform 0.5s ease;
     transform-origin: center;
+    font-family: 'Lato', sans-serif;
     font-size: 100%;
+    font-weight: 300;
     white-space: nowrap;
 
 }
@@ -745,6 +760,7 @@ html.is-animating .transition-fade {
 .grid {
     --gap: 16px;
     --num-cols: 3; /* Number of columns */
+    --row-height: 200px;
     max-width: 1300px;
     margin: 0 auto; /* Center the grid horizontally */
     box-sizing: border-box;
@@ -754,18 +770,19 @@ html.is-animating .transition-fade {
     grid-template-columns: repeat(var(--num-cols), 1fr); /* 3 columns for larger screens */
     grid-auto-rows: 400px;
     gap: var(--gap); /* Space between grid items */
+
 }
 
 .grid img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    
     opacity: 1;
     transition: opacity 0.5s ease, transform 0.5s ease;
     opacity: 1; /* Default opacity (visible) */
     transform: scale(1); /* Default scale (normal size) */
 }
+
 
 .grid img:hover {
 
@@ -797,56 +814,156 @@ html.is-animating .transition-fade {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 main {
-    display: flex; /* Use Flexbox layout */
-    align-items: flex-start; /* Align items to the top of the container */
-    justify-content: center; /* Center the content horizontally */
-    gap: 5rem; /* Add space between the image and text */
-    padding: 1rem; /* Add some padding for spacing */
+    display: flex; /* Align images and text horizontally */
+    align-items: flex-start; /* Align content at the top */
+    gap: 2em;
+}
+
+.photosOfMe-container {
+    position: relative;
+    display: flex;
+    width: 350px;
+    margin-left: 18%;
+    flex-shrink: 0;
+}
+
+.photoOfMe{
+
+    position: relative;
+    width: 600px;
+    margin-top: 3em;
+
 }
 
 
 
-.aboutMePhoto {
-
-    max-width: 30%; /* Make the image take up 40% of the container width */
-    height: auto; /* Maintain aspect ratio */
-    margin-left: 4rem;
-    margin-top: 1rem;
-
+.aboutMePhotos {
+    width: 100%;
+    height: auto;
+    position: absolute; /* Allows overlapping */
+    transition: transform 0.8s ease, z-index 0.8s ease;
 }
+
+/*.aboutMePhotos:hover {
+    transform: scale(1.1) rotate(-3deg);
+}*/
+
+.photoOfMe1 {
+    width: 80%; 
+    left: -3em;
+    top: 0;
+    transform: rotate(-5deg);
+    z-index: 1;
+}
+
+.photoOfMe2 {
+    width: 80%;
+    left: 7em;
+    top: 11em;
+    transform: rotate(5deg);
+    z-index: 2;
+}
+
+.photoOfMe3 {
+    width: 80%;
+    right: 13em;
+    top: 21em;
+    transform: rotate(-8deg);
+    z-index: 3;
+}
+
+.photoOfMe4 {
+    width: 80%;
+    left: 6em;
+    top: 28em;
+    transform: rotate(10deg);
+    z-index: 5;
+}
+
+.photoOfMe5 {
+    width: 80%;
+    left: -5em;
+    top: 33em;
+    transform: rotate(-15deg);
+    z-index: 5;
+}
+
 
 
 .aboutMeBody {
-
+    position: relative;
+    max-width: 800px;
+    display: flex; /* Enables flexbox */
+    justify-content: center; /* Centers content horizontally */
+    /* Aligns content vertically */
+    gap: 1rem;
     color: white;
-    overflow: hidden;
-    min-height: 600px;
+    line-height: 1.5;
+    text-align: justify;
+    /* Center the entire section */
+    flex-wrap: wrap; /* Makes it responsive */
 
 }
+
+.aboutMeBody p:not(:last-of-type)::first-letter {
+    font-size: 3em;    /* Make the first letter large */
+    font-weight: bold;  /* Optional: Make it bold */
+    color: #ffffff;     /* Change the color of the drop cap */
+    float: left;        /* Float the letter to the left */
+    margin-right: 0.1em; /* Add space between the letter and the text */
+    line-height: 1;     /* Adjust line-height for alignment */
+}
+
+.aboutMeBody p {
+    margin-bottom: 20px;
+    max-width: 500px; /* Add space between paragraphs */
+}
+
+.aboutMeBody p.right-align {
+
+    margin-left: 10em;
+    max-width: 500px; /* Optional: Limit the width for readability */
+
+}
+
 
 .aboutMeBody h1{
 
-    display: flex;
-    align-items: left;
-    justify-content: left;
-    text-align: left;
-    padding-bottom: 1.6rem;
+    text-align: right;
+    font-weight: 300;
+    padding-bottom: 1.6em;
 
 }
 
-.aboutMeBody p{
 
-    display: flex;
-    align-items: left;
-    justify-content: left;
-    text-align: left;
-    padding-bottom: 2rem;
-    max-width: 40rem;
+.signature {
+
+    width: 45%;
+    padding: 1em 0 0 0;
 
 }
+
+
 
 footer {
+    align-self: flex-end;
+    bottom: 0;
+    right: 0;
     font-style: italic;
     text-align: right;
     color: white;
@@ -858,7 +975,7 @@ footer {
 footer a{
 
     padding: 0 0 0 0;
-    padding-right: 1rem;
+    padding-right: 1em;
 
 }
 
@@ -868,105 +985,242 @@ footer a{
 }
 
 
-@media screen and (max-width: 1024px) {
-    .grid {
-        --num-cols: 2; /* Adjust number of columns for smaller screens */
+@media (min-width: 1669px){
+
+    .photosOfMe-container {
+        margin-left: 25%;
     }
+
+}
+
+
+
+@media (max-width: 1300px) {
+
+    .photosOfMe-container {
+        margin-left: 13%;
+    }
+
+}
+
+
+
+@media (max-width: 1200px) {
+
+    .photosOfMe-container img{
+        
+        width: 70%;
+
+    }
+
+    .photosOfMe-container {
+        margin-left: 11%;
+        margin-right: -9%;
+    }
+
+    .aboutMeBody{
+        font-size: 0.9em;
+    }
+
+
+}
+
+
+
+@media (max-width: 1115px) {
+
+    .photosOfMe-container {
+        margin-left: 5%;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 1050px) {
+    .grid {
+        --num-cols: 2;
+    }
+
+
+    .modal {
+        display: flex;
+        align-items: center; /* Center vertically */
+        justify-content: center; /* Center horizontally */
+        flex-direction: column;
+    }
+
+    .modal-content {
+        max-width: 90%; /* Adjust for responsiveness */
+        max-height: 80vh; /* Prevent images from exceeding the screen height */
+        margin: 0; /* Remove any default margin */
+    }
+
+    .modal-description {
+
+        color:white;
+        background-color: transparent;
+        font-size: 1.1rem;  
+        margin-top: 0.5rem;
+        margin-left: -8%;
+        text-align: center;
+        position: relative; 
+        opacity: 0;
+        transition: opacity 1s ease;
+        
+    
+    }
+
+
+
+    .logo {
+        width: 35vw;
+    }
+
+    .button {
+        font-size: 0.8em; 
+    }
+
+
+    .photosOfMe-container {
+        margin-left: 8%;
+    }
+
+
+    .photosOfMe-container img{
+        width: 60%;
+    }
+
+
+    .photoOfMe3 {
+        left: -3em;
+    }
+
+    .photoOfMe5 {
+        left: -2em;
+    }
+
+    
+    .aboutMeBody p.right-align {
+
+        margin-left: 0em;
+    
+    }
+
+}
+
+
+
+
+@media (max-width: 963px) {
+    main {
+        flex-direction: column; /* Stack images on top, text below */
+        align-items: center; /* Center everything */
+    }
+
+    .photosOfMe-container {
+        max-width: 500px;
+        max-height: 1250px; /* Prevent them from getting too large */
+        height: auto;
+        margin-left: 0em;
+        margin-right: 0em;
+        display: flex;
+        flex-direction: column;   
+        justify-content: center;
+        position: relative;
+        /*background-color: green;*/
+
+    }
+
+    .photosOfMe-container img{
+        
+        align-content: center;
+        width: 70%;
+
+    }
+
+    .aboutMePhotos {
+        position: relative; /* Remove absolute positioning */
+        
+    }
+
+
+    .photoOfMe1 {
+        left: 2em;
+        top: 3em;
+        transform: rotate(-5deg);
+        z-index: 5;
+    }
+    
+    .photoOfMe2 {
+        left: 4em;
+        top: 0em;
+        transform: rotate(5deg);
+        z-index: 6;
+    }
+    
+    .photoOfMe3 {
+        left: 2em;
+        top: -3em;
+        transform: rotate(-8deg);
+        z-index: 7;
+    }
+    
+    .photoOfMe4 {
+        left: 5em;
+        top: -3em;
+        transform: rotate(10deg);
+        z-index: 8;
+    }
+    
+    .photoOfMe5 {
+        left: 2em;
+        top: -3em;
+        transform: rotate(-10deg);
+        z-index: 9;
+    }
+
+    .aboutMeBody {
+        font-size: 1em;
+        max-width: 80%; /* Ensure text is readable */
+    }
+
 }
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//photos.json
-
-[
-    {
-      "src": "Photos/1.JPG",
-      "alt": "Image 1",
-      "class": "photo .black&white .35mm",
-      "dataTitle": "' Hail Pepeka '",
-      "dataLocation": "São Paulo, Brasil 2024",
-      "dataEquipment": "Nikon N55"
-    },
-    {
-      "src": "Photos/10.JPG",
-      "alt": "Image 2",
-      "class": "photo .black&white .35mm",
-      "dataTitle": "' Urinal '",
-      "dataLocation": "São Paulo, Brasil 2024",
-      "dataEquipment": "Nikon N55"
-    },
-    {
-      "src": "Photos/3.JPG",
-      "alt": "Image 1",
-      "class": "photo .color .digital",
-      "dataTitle": "' Midday Armageddon '",
-      "dataLocation": "Chicago, USA 2024",
-      "dataEquipment": "Nikon D40x"
-    },
-    {
-      "src": "Photos/4.JPG",
-      "alt": "Image 2",
-      "class": "photo .color .35mm",
-      "dataTitle": "' Johan Chi Portrait I '",
-      "dataLocation": "Chicago, USA 2024",
-      "dataEquipment": "Nikon N55"
-    },
-    {
-      "src": "Photos/5.JPG",
-      "alt": "Image 1",
-      "class": "photo .black&white .digital",
-      "dataTitle": "' Not Greece '",
-      "dataLocation": "Cincinnati, USA 2024",
-      "dataEquipment": "Nikon D40x"
-    },
-    {
-      "src": "Photos/6.JPG",
-      "alt": "Image 2",
-      "class": "photo .color .digital",
-      "dataTitle": "' Natália Portrait I '",
-      "dataLocation": "Fort Wayne, USA 2024",
-      "dataEquipment": "Nikon D40x"
-    },
-    {
-      "src": "Photos/7.JPG",
-      "alt": "Image 2",
-      "class": "photo .color .digital",
-      "dataTitle": "' Roadrunner '",
-      "dataLocation": "Fort Wayne, USA 2024",
-      "dataEquipment": "Nikon D40x"
-    },
-    {
-      "src": "Photos/8.JPG",
-      "alt": "Image 2",
-      "class": "photo .black&white .35mm",
-      "dataTitle": "' Guilherme Portrait I (LUZ)'",
-      "dataLocation": "São Paulo, Brasil 2024",
-      "dataEquipment": "Nikon N55"
-    },
-    {
-      "src": "Photos/9.JPG",
-      "alt": "Image 2",
-      "class": "photo .color .35mm",
-      "dataTitle": "' Smell The Flowers '",
-      "dataLocation": "Fort Wayne, USA 2024",
-      "dataEquipment": "Nikon N55"
+@media (max-width: 768px) {
+    .filter {
+        flex-direction: column;
+        justify-content: center;
+        font-size: 18px;
+        gap: 0.5rem;
     }
-  ]
-  
+
+    .filter p {
+        font-size: 22px;
+        font-style: italic;
+        font-weight: 350;
+        
+    }
+
+    .modal{
+        opacity: 0;
+    }
+
+    .grid img {
+        
+        
+
+    }
+
+    .grid {
+
+        grid-auto-rows: 250px;
+
+    }
+    
+}

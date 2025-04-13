@@ -153,23 +153,28 @@ function setupFilters() {
 
         if (activeFilters.includes('.color')) {
             $('.filter button[data-name=".black&white"]').prop('disabled', true).addClass('disabled');
+            $('.filter button[data-name=".120_film"]').prop('disabled', true).addClass('disabled');
         } else {
             $('.filter button[data-name=".black&white"]').prop('disabled', false).removeClass('disabled');
+            $('.filter button[data-name=".120_film"]').prop('disabled', false).removeClass('disabled');
         }
 
         if (activeFilters.includes('.digital')) {
             $('.filter button[data-name=".35mm"]').prop('disabled', true).addClass('disabled');
-            $('.filter button[data-name=".medium_format"]').prop('disabled', true).addClass('disabled');
+            $('.filter button[data-name=".120_film"]').prop('disabled', true).addClass('disabled');
         } else if (activeFilters.includes('.35mm')) {
             $('.filter button[data-name=".digital"]').prop('disabled', true).addClass('disabled');
-            $('.filter button[data-name=".medium_format"]').prop('disabled', true).addClass('disabled');
-        } else if (activeFilters.includes('.medium_format')) {
+            $('.filter button[data-name=".120_film"]').prop('disabled', true).addClass('disabled');
+        } else if (activeFilters.includes('.120_film')) {
             $('.filter button[data-name=".digital"]').prop('disabled', true).addClass('disabled');
             $('.filter button[data-name=".35mm"]').prop('disabled', true).addClass('disabled');
+            $('.filter button[data-name=".color"]').prop('disabled', true).addClass('disabled');
+            $('.filter button[data-name=".black&white"]').prop('disabled', true).addClass('disabled');
         } else {
             $('.filter button[data-name=".35mm"]').prop('disabled', false).removeClass('disabled');
-            $('.filter button[data-name=".medium_format"]').prop('disabled', false).removeClass('disabled');
+            $('.filter button[data-name=".color"]').prop('disabled', false).removeClass('disabled');
             $('.filter button[data-name=".digital"]').prop('disabled', false).removeClass('disabled');
+            $('.filter button[data-name=".black&white"]').prop('disabled', false).removeClass('disabled');
         }
 
     }
@@ -258,6 +263,7 @@ $(document).ready(function () {
     setupFilters();
     setActiveButton();
     setupEventListeners(); // Initialize event listeners
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
 swup.hooks.on('page:view', () => {
@@ -265,6 +271,7 @@ swup.hooks.on('page:view', () => {
     setupFilters();
     setActiveButton();
     setupEventListeners(); // Re-bind event listeners after Swup content replacement
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
 

@@ -1315,7 +1315,7 @@
     "src": "./photos/97.jpg",
     "alt": "Image 97",
     "class": "photo .color .digital",
-    "dataTitle": "Chinatown II",
+    "dataTitle": "Chinatown I",
     "dataLocation": "Chicago, IL, USA 2024",
     "dataEquipment": "Nikon D40x"
   },
@@ -1772,14 +1772,6 @@
     "alt": "Image 30",
     "class": "photo .color .digital",
     "dataTitle": "Trash II",
-    "dataLocation": "Fort Wayne, IN, USA 2024",
-    "dataEquipment": "Nikon Coolpix S570"
-  },
-  {
-    "src": "./photos/31.jpg",
-    "alt": "Image 31",
-    "class": "photo .color .digital",
-    "dataTitle": "Trash",
     "dataLocation": "Fort Wayne, IN, USA 2024",
     "dataEquipment": "Nikon Coolpix S570"
   },

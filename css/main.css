@@ -251,7 +251,7 @@ html.is-animating .transition-fade {
 
 .btn.active {
     background-color: rgba(255, 255, 255, 0.412); /* Opaque white background */
-    transform: scale(1.1); /* Slightly larger background on active */
+    transform: scale(0.9); /* Slightly larger background on active */
 }
 
 .grid {
@@ -328,7 +328,7 @@ html.is-animating .transition-fade {
 main {
     display: flex; /* Align images and text horizontally */
     align-items: flex-start; /* Align content at the top */
-    gap: 2em;
+    gap: 0em;
 }
 
 .photosOfMe-container {
@@ -339,18 +339,27 @@ main {
     flex-shrink: 0;
 }
 
+.photoOfMe{
+
+    position: relative;
+    width: 600px;
+    margin-top: 3em;
+    margin-left: 6em;
+
+}
+
 
 
 .aboutMePhotos {
     width: 100%;
     height: auto;
-    position: absolute; /* Allows overlapping */
+    position: relative; /* Allows overlapping */
     transition: transform 0.8s ease, z-index 0.8s ease;
 }
 
-.aboutMePhotos:hover {
+/*.aboutMePhotos:hover {
     transform: scale(1.1) rotate(-3deg);
-}
+}*/
 
 .photoOfMe1 {
     width: 80%; 
@@ -396,7 +405,7 @@ main {
 
 .aboutMeBody {
     position: relative;
-    max-width: 800px;
+    max-width: 700px;
     display: flex; /* Enables flexbox */
     justify-content: center; /* Centers content horizontally */
     /* Aligns content vertically */
@@ -474,27 +483,31 @@ footer a{
 }
 
 
-@media (min-width: 1669px){
+@media (min-width: 1600px){
 
-    .photosOfMe-container {
-        margin-left: 25%;
+    .photoOfMe{
+
+        position: relative;
+        width: 600px;
+        margin-top: 3em;
+        margin-left: 20em;
+    
     }
 
 }
 
 
-
+/*
 @media (max-width: 1300px) {
 
     .photosOfMe-container {
         margin-left: 13%;
     }
 
-
-}
-
+}*/
 
 
+/*
 @media (max-width: 1200px) {
 
     .photosOfMe-container img{
@@ -514,18 +527,18 @@ footer a{
 
 
 }
+*/
 
-
-
+/*
 @media (max-width: 1115px) {
 
     .photosOfMe-container {
-        margin-left: 5%;
+        margin-left: 25%;
     }
 
 
 }
-
+*/
 
 
 @media screen and (max-width: 1050px) {
@@ -591,15 +604,6 @@ footer a{
         left: -2em;
     }
 
-
-
-    .aboutMeBody {
-        
-        
-
-    }
-
-
     
     .aboutMeBody p.right-align {
 
@@ -636,6 +640,13 @@ footer a{
         
         align-content: center;
         width: 70%;
+
+    }
+
+    .photoOfMe{
+
+        width: 80%;
+        margin-right: 2em;
 
     }
 
