@@ -105,9 +105,9 @@
   },
   {
     "src": "./photos/264.jpg",
-    "alt": "Image 264",
+    "alt": "Image 263",
     "class": "photo .black&white .35mm",
-    "dataTitle": "Red Light Clinic II",
+    "dataTitle": "Red Light Clinic",
     "dataLocation": "Fort Wayne, IN, USA 2025",
     "dataEquipment": "Nikon N50 - ArtistaEDU Ultra 200 B&W"
   },
@@ -621,14 +621,6 @@
     "class": "photo .color .digital",
     "dataTitle": "Vaqueros I",
     "dataLocation": "Ligonier, IN, USA 2024",
-    "dataEquipment": "Nikon D40x"
-  },
-  {
-    "src": "./photos/172.jpg",
-    "alt": "Image 172",
-    "class": "photo .color .digital",
-    "dataTitle": "Purdue Football",
-    "dataLocation": "West Lafayette, IN, USA 2024",
     "dataEquipment": "Nikon D40x"
   },
   {
