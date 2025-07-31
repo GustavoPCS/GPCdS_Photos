@@ -61,6 +61,15 @@
                 
             </div>
 
+            <button id="scrollTopBtn" class="scroll-top">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 15L12 9L18 15" stroke="white" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+
+
+
             <div class="no-images-message" style="display: none;">
                 No images to be displayed
             </div>
@@ -76,7 +85,18 @@
     </footer>
 
     <div id="imageModal" class="modal" onclick="closeModal()">
+        
+        <button class="modal-arrow left" id="prevImage">
+            <img src="./photos/left-arrow.png" alt="Next" class="arrow-icon">
+        </button>
+
+
         <img class="modal-content" id="modalImage"/>
+
+        <button class="modal-arrow right" id="nextImage">
+            <img src="./photos/right-arrow.png" alt="Next" class="arrow-icon">
+        </button>
+
         <div class="modal-description" id="modalDescription"></div>
    
     </div>

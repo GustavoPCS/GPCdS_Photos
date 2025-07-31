@@ -27,6 +27,26 @@ document.addEventListener("contextmenu", function (e) {
 
 /////////////////////////////////////////////////////////
 
+function initScrollToTop() {
+    const scrollBtn = $("#scrollTopBtn");
+
+    // Show button when user scrolls down 300px
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 300) {
+            scrollBtn.addClass("show");
+        } else if (scrollBtn.hasClass("show")) {
+            scrollBtn.removeClass("show").addClass("hiding");
+            setTimeout(() => scrollBtn.removeClass("hiding"), 500); // match CSS transition time
+        }
+    });
+
+    // Scroll to top on click
+    scrollBtn.click(function() {
+        $("html, body").animate({ scrollTop: 0 }, 600);
+    });
+};
+
+/////////////////////////////////////////////////////////
 
 async function loadImages() {
     try {
@@ -68,22 +88,84 @@ async function loadImages() {
 
 ////////////////////////////////////////////////////////
 
-$(document).ready(function () {
-
-    $('.photo').click(function () {
-
-        const description = `<em>${$(this).data('title')}</em><br>${$(this).data('location')}<br>${$(this).data('equipment')}`;
-
-        openModal(this, description);
-
-    });
-});
-
-
-
-
+let currentIndex = 0;              // Track which image is active
+let photoElements = [];            // Store all photos in the grid
 
 function setupEventListeners() {
+    photoElements = $('.photo').toArray();  // ✅ Refresh the photo list every time
+    //console.log("Photos found:", photoElements.length);
+
+    $('.photo').off('click').on('click', function () {
+        currentIndex = photoElements.indexOf(this); // ✅ Track index here
+        const description = `<em>${$(this).data('title')}</em> <br>
+                             ${$(this).data('location')} <br>${
+                               $(this).data('equipment')}`;  
+        openModal(this, description);
+    });
+
+    $('#modalCloseButton').off('click').on('click', closeModal);
+
+    // ✅ Rebind arrows here too
+    $('#prevImage').off('click').on('click', function (e) {
+        e.stopPropagation();
+        showPrevImage();
+    });
+    $('#nextImage').off('click').on('click', function (e) {
+        e.stopPropagation();
+        showNextImage();
+    });
+}
+
+
+function showPrevImage() {
+    currentIndex = (currentIndex - 1 + photoElements.length) % photoElements.length;
+    updateModal(photoElements[currentIndex]);
+}
+
+function showNextImage() {
+    currentIndex = (currentIndex + 1) % photoElements.length;
+    updateModal(photoElements[currentIndex]);
+}
+
+
+
+function positionDescription(modalImage, modalDescription) {
+    modalImage.onload = function() {
+        modalDescription.style.left = `${(window.innerWidth / 2) - (modalImage.offsetWidth / 2)}px`;
+    };
+}
+
+
+function updateModal(image) {
+    if (!image) return; // Prevent error if undefined
+
+    const modalImage = document.getElementById("modalImage");
+    const modalDescription = document.getElementById("modalDescription");
+
+    // Convert jQuery object to DOM if needed
+    const imgElement = image instanceof jQuery ? image[0] : image;
+
+    modalImage.classList.add("fade-out");
+    modalDescription.classList.add("fade-out");
+
+    setTimeout(() => {
+        modalImage.src = imgElement.src;
+        modalDescription.innerHTML = `<em>${$(imgElement).data('title')}</em><br>${$(imgElement).data('location')}<br>${$(imgElement).data('equipment')}`;
+
+        positionDescription(modalImage, modalDescription);
+
+        modalImage.classList.remove("fade-out");
+        modalImage.classList.add("fade-in");
+        modalDescription.classList.remove("fade-out");
+        modalDescription.classList.add("fade-in");
+        setTimeout(() => modalImage.classList.remove("fade-in"), 300);
+        setTimeout(() => modalDescription.classList.remove("fade-in"), 300);
+    }, 200);
+}
+
+
+
+function setupEventListenerstwo() {
     // Bind click events for photo elements
     $('.photo').off('click').on('click', function () { // Use off to avoid duplicate listeners
         const description = `<em>${$(this).data('title')}</em> <br>
@@ -98,10 +180,6 @@ function setupEventListeners() {
 
 
 
-
-
-
-
 function openModal(image, description) {
     const modal = document.getElementById("imageModal");
     const modalImage = document.getElementById("modalImage");
@@ -113,7 +191,7 @@ function openModal(image, description) {
     
 
     // Set the left position of the description
-    modalDescription.style.left = `${(window.innerWidth / 2) - (modalImage.offsetWidth / 2)}px`; // Set to half the width
+    positionDescription(modalImage, modalDescription);
     //modalDescription.style.transform = 'translateX(-93%)'; // Shift left by half its own width
 
 
@@ -145,8 +223,10 @@ function setupFilters() {
 
     // Function to disable/enable filters based on selection
     function toggleFilterAvailability() {
+
         if (activeFilters.includes('.black&white')) {
             $('.filter button[data-name=".color"]').prop('disabled', true).addClass('disabled');
+
         } else {
             $('.filter button[data-name=".color"]').prop('disabled', false).removeClass('disabled');
         }
@@ -162,9 +242,11 @@ function setupFilters() {
         if (activeFilters.includes('.digital')) {
             $('.filter button[data-name=".35mm"]').prop('disabled', true).addClass('disabled');
             $('.filter button[data-name=".120_film"]').prop('disabled', true).addClass('disabled');
+
         } else if (activeFilters.includes('.35mm')) {
             $('.filter button[data-name=".digital"]').prop('disabled', true).addClass('disabled');
             $('.filter button[data-name=".120_film"]').prop('disabled', true).addClass('disabled');
+
         } else if (activeFilters.includes('.120_film')) {
             $('.filter button[data-name=".digital"]').prop('disabled', true).addClass('disabled');
             $('.filter button[data-name=".35mm"]').prop('disabled', true).addClass('disabled');
@@ -259,6 +341,7 @@ function setActiveButton() {
 ///////////////////////////////////////////////////////////////
 
 $(document).ready(function () {
+    initScrollToTop();
     loadImages();
     setupFilters();
     setActiveButton();
@@ -267,6 +350,7 @@ $(document).ready(function () {
 });
 
 swup.hooks.on('page:view', () => {
+    initScrollToTop();
     loadImages();
     setupFilters();
     setActiveButton();

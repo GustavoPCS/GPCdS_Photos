@@ -9,10 +9,6 @@
     padding: 0;
 }
 
-* {
-    background-color: black;
-}
-
 
 img {
     -webkit-user-drag: none;
@@ -25,6 +21,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: black;
    
     margin: 0 auto; /* Center the page horizontally */
     overflow-x: hidden; /* Prevent horizontal scrolling */
@@ -34,6 +31,43 @@ body {
 
 html {
     overflow-x: hidden; /* Ensure the entire page allows horizontal scrolling */
+}
+
+
+/* Scroll to top button */
+.scroll-top {
+    position: fixed;
+    top: 50%; /* place it in the middle vertically */
+    right: 0.9em;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    z-index: 1000;
+}
+
+.scroll-top.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.scroll-top.hiding {
+    opacity: 0;
+    visibility: visible; /* keep it visible until fade completes */
+}
+
+.scroll-top:hover {
+    transform: scale(1.1);
 }
 
 
@@ -78,6 +112,55 @@ html {
     transition: 0.4s; /* Fade-in for the image */
 
 }
+
+.modal-arrow {
+    background: none;
+    background-color: transparent !important;
+    border: none;
+    outline: none;
+    box-shadow: none;  
+    position: absolute;
+    top: 50%;
+    font-size: 3rem;
+    color: white;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    z-index: 1000;
+    transition: 0.3s;
+}
+
+.arrow-icon{
+
+    max-width: 0.8em;
+    max-height: 0.8em;
+
+}
+
+
+.modal-arrow:hover {
+  transform: scale(1.1);
+}
+
+.modal-arrow.left {
+  left: 0.7em;
+}
+
+.modal-arrow.right {
+  right: 0.7em;
+}
+
+.fade-out {
+    opacity: 0 !important;
+    transition: opacity 0.2s ease;
+}
+
+.fade-in {
+    opacity: 1 !important;;
+    transition: opacity 0.2s ease;
+}
+
+
 
 .modal-description {
 
@@ -344,7 +427,8 @@ main {
     position: relative;
     width: 600px;
     margin-top: 3em;
-    margin-left: 6em;
+    margin-right: 3em;
+    margin-left: 5em;
 
 }
 
@@ -407,6 +491,7 @@ main {
     position: relative;
     max-width: 700px;
     display: flex; /* Enables flexbox */
+    flex-direction: column;
     justify-content: center; /* Centers content horizontally */
     /* Aligns content vertically */
     gap: 1rem;
@@ -444,7 +529,8 @@ main {
 
     text-align: right;
     font-weight: 300;
-    padding-bottom: 1.6em;
+    padding-bottom: 0.5em;
+    margin-right: 0.5em;
 
 }
 
@@ -546,6 +632,20 @@ footer a{
         --num-cols: 2;
     }
 
+    .scroll-top {
+
+        top: 90%;
+
+    }
+
+    .modal-arrow {
+
+        top: 90%;
+
+    }
+
+
+
 
     .modal {
         display: flex;
@@ -646,7 +746,7 @@ footer a{
     .photoOfMe{
 
         width: 80%;
-        margin-right: 6em;
+        margin-right: 4.8em;
         margin-top: 1em;
         padding-bottom: 3em;
 
