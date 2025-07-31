@@ -254,9 +254,11 @@ function setupFilters() {
             $('.filter button[data-name=".black&white"]').prop('disabled', true).addClass('disabled');
         } else {
             $('.filter button[data-name=".35mm"]').prop('disabled', false).removeClass('disabled');
-            $('.filter button[data-name=".color"]').prop('disabled', false).removeClass('disabled');
             $('.filter button[data-name=".digital"]').prop('disabled', false).removeClass('disabled');
-            $('.filter button[data-name=".black&white"]').prop('disabled', false).removeClass('disabled');
+
+
+            //$('.filter button[data-name=".color"]').prop('disabled', false).removeClass('disabled');
+            //$('.filter button[data-name=".black&white"]').prop('disabled', false).removeClass('disabled');
         }
 
     }
@@ -347,6 +349,13 @@ $(document).ready(function () {
     setActiveButton();
     setupEventListeners(); // Initialize event listeners
     window.scrollTo({ top: 0, behavior: 'smooth' });
+
+    //showPrevImage();
+    //showNextImage();
+    //positionDescription(modalImage, modalDescription);
+    //updateModal(image);
+    //openModal(image, description);
+    //closeModal();
 });
 
 swup.hooks.on('page:view', () => {
