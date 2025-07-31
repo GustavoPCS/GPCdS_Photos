@@ -3,7 +3,7 @@
     "src": "./photos/280.jpg",
     "alt": "Photo 280",
     "class": "photo .black&white .digital",
-    "dataTitle": "SAUDADE I",
+    "dataTitle": "SAUDADE",
     "dataLocation": "South Bend, IN, USA 2025",
     "dataEquipment": "Nikon D40x"
   },
@@ -11,7 +11,7 @@
     "src": "./photos/279.jpg",
     "alt": "Photo 279",
     "class": "photo .color .digital",
-    "dataTitle": "SAUDADE VIII",
+    "dataTitle": "SAUDADE",
     "dataLocation": "Tietê, SP, Brasil 2018",
     "dataEquipment": "Nikon D40x"
   },
@@ -19,7 +19,7 @@
     "src": "./photos/278.jpg",
     "alt": "Photo 278",
     "class": "photo .black&white .digital",
-    "dataTitle": "SAUDADE IX",
+    "dataTitle": "SAUDADE",
     "dataLocation": "South Bend, IN, USA 2025",
     "dataEquipment": "Nikon D40x"
   },
@@ -27,7 +27,7 @@
     "src": "./photos/277.jpg",
     "alt": "Photo 277",
     "class": "photo .color .digital",
-    "dataTitle": "SAUDADE V",
+    "dataTitle": "SAUDADE",
     "dataLocation": "Tietê, SP, Brasil 2018",
     "dataEquipment": "Nikon D40x"
   },
@@ -56,14 +56,6 @@
     "dataEquipment": "Zenobia C - Illford HP5 Plus 400"
   },
   {
-    "src": "./photos/271.jpg",
-    "alt": "Image 271",
-    "class": "photo .black&white .120_film",
-    "dataTitle": "Graveface Museum Doll",
-    "dataLocation": "Chicago, IL, USA 2025",
-    "dataEquipment": "Zenobia C - Illford HP5 Plus 400"
-  },
-  {
     "src": "./photos/269.jpg",
     "alt": "Image 269",
     "class": "photo .black&white .35mm",
@@ -88,27 +80,11 @@
     "dataEquipment": "Nikon N50 - ArtistaEDU Ultra 200 B&W"
   },
   {
-    "src": "./photos/266.jpg",
-    "alt": "Image 266",
-    "class": "photo .black&white .35mm",
-    "dataTitle": "Billy Goat Tavern",
-    "dataLocation": "Chicago, IL, USA 2025",
-    "dataEquipment": "Nikon N50 - ArtistaEDU Ultra 200 B&W"
-  },
-  {
     "src": "./photos/265.jpg",
     "alt": "Image 265",
     "class": "photo .black&white .35mm",
-    "dataTitle": "Neurocranium",
+    "dataTitle": "Museum Skeleton",
     "dataLocation": "Chicago, IL, USA 2025",
-    "dataEquipment": "Nikon N50 - ArtistaEDU Ultra 200 B&W"
-  },
-  {
-    "src": "./photos/264.jpg",
-    "alt": "Image 263",
-    "class": "photo .black&white .35mm",
-    "dataTitle": "Red Light Clinic",
-    "dataLocation": "Fort Wayne, IN, USA 2025",
     "dataEquipment": "Nikon N50 - ArtistaEDU Ultra 200 B&W"
   },
   {
@@ -155,7 +131,7 @@
     "src": "./photos/253.jpg",
     "alt": "Image 253",
     "class": "photo .black&white .digital",
-    "dataTitle": "Chicago III",
+    "dataTitle": "Chicago",
     "dataLocation": "Chicago, IL, USA 2025",
     "dataEquipment": "Nikon D40x"
   },
@@ -163,7 +139,7 @@
     "src": "./photos/252.jpg",
     "alt": "Image 252",
     "class": "photo .black&white .digital",
-    "dataTitle": "All Work and No Play",
+    "dataTitle": "Michigan Avenue",
     "dataLocation": "Chicago, IL, USA 2025",
     "dataEquipment": "Nikon D40x"
   },
@@ -171,7 +147,7 @@
     "src": "./photos/251.jpg",
     "alt": "Image 251",
     "class": "photo .black&white .digital",
-    "dataTitle": "Hatman",
+    "dataTitle": "Milwakee Avenue",
     "dataLocation": "Chicago, IL, USA 2025",
     "dataEquipment": "Nikon D40x"
   },
@@ -179,7 +155,7 @@
     "src": "./photos/250.jpg",
     "alt": "Image 250",
     "class": "photo .black&white .digital",
-    "dataTitle": "WMichigan Avenue IV",
+    "dataTitle": "Michigan Avenue",
     "dataLocation": "Chicago, IL, USA 2025",
     "dataEquipment": "Nikon D40x"
   },
@@ -191,19 +167,12 @@
     "dataLocation": "Chicago, IL, USA 2025",
     "dataEquipment": "Nikon D40x"
   },
-  {
-    "src": "./photos/248.jpg",
-    "alt": "Image 248",
-    "class": "photo .black&white .digital",
-    "dataTitle": "Sedgwick Station",
-    "dataLocation": "Chicago, IL, USA 2025",
-    "dataEquipment": "Nikon D40x"
-  },
+
   {
     "src": "./photos/247.jpg",
     "alt": "Image 247",
     "class": "photo .black&white .digital",
-    "dataTitle": "Chinatown X",
+    "dataTitle": "Chinatown",
     "dataLocation": "Chicago, IL, USA 2025",
     "dataEquipment": "Nikon D40x"
   },
@@ -211,7 +180,7 @@
     "src": "./photos/246.jpg",
     "alt": "Image 246",
     "class": "photo .black&white .digital",
-    "dataTitle": "Chinatown IX",
+    "dataTitle": "Chinatown",
     "dataLocation": "Chicago, IL, USA 2025",
     "dataEquipment": "Nikon D40x"
   },
@@ -219,7 +188,7 @@
     "src": "./photos/245.jpg",
     "alt": "Image 245",
     "class": "photo .black&white .digital",
-    "dataTitle": "Milwaukee Avenue III",
+    "dataTitle": "Milwaukee Avenue",
     "dataLocation": "Chicago, IL, USA 2025",
     "dataEquipment": "Nikon D40x"
   },
@@ -240,18 +209,10 @@
     "dataEquipment": "Nikon D40x"
   },
   {
-    "src": "./photos/242.jpg",
-    "alt": "Image 242",
-    "class": "photo .black&white .digital",
-    "dataTitle": "Milwakee Avenue I",
-    "dataLocation": "Chicago, IL, USA 2025",
-    "dataEquipment": "Nikon D40x"
-  },
-  {
     "src": "./photos/239.jpg",
     "alt": "Image 239",
     "class": "photo .black&white .digital",
-    "dataTitle": "Michigan Avenue III",
+    "dataTitle": "Michigan Avenue",
     "dataLocation": "Chicago, IL, USA 2025",
     "dataEquipment": "Nikon D40x"
   },
@@ -261,14 +222,6 @@
     "class": "photo .black&white .digital",
     "dataTitle": "Johan VIII",
     "dataLocation": "Chicago, IL, USA 2025",
-    "dataEquipment": "Nikon D40x"
-  },
-  {
-    "src": "./photos/236.jpg",
-    "alt": "Image 236",
-    "class": "photo .black&white .digital",
-    "dataTitle": "Kalia I",
-    "dataLocation": "Fort Wayne, IN, USA 2025",
     "dataEquipment": "Nikon D40x"
   },
   {
@@ -320,14 +273,6 @@
     "dataEquipment": "Nikon N55 - Kentmere 400 B&W"
   },
   {
-    "src": "./photos/223.jpg",
-    "alt": "Image 223",
-    "class": "photo .black&white .35mm",
-    "dataTitle": "Sahara",
-    "dataLocation": "Fort Wayne, IN, USA 2024",
-    "dataEquipment": "Nikon N55 - Kentmere 400 B&W"
-  },
-  {
     "src": "./photos/222.jpg",
     "alt": "Image 222",
     "class": "photo .black&white .35mm",
@@ -347,7 +292,7 @@
     "src": "./photos/220.jpg",
     "alt": "Image 220",
     "class": "photo .black&white .120_film",
-    "dataTitle": "Gótica",
+    "dataTitle": "Igreja",
     "dataLocation": "Cincinnati, OH, USA 2024",
     "dataEquipment": "Kodak Brownie Hawkeye - Kentmere 400 B&W"
   },
@@ -371,47 +316,15 @@
     "src": "./photos/215.jpg",
     "alt": "Image 215",
     "class": "photo .black&white .120_film",
-    "dataTitle": "Self Portrait VI",
+    "dataTitle": "Self Portrait",
     "dataLocation": "Cincinnati, OH, USA 2024",
     "dataEquipment": "Kodak Brownie Hawkeye - Kentmere 400 B&W"
-  },
-  {
-    "src": "./photos/214.jpg",
-    "alt": "Image 214",
-    "class": "photo .black&white .120_film",
-    "dataTitle": "Bookstore Basement",
-    "dataLocation": "Niles, MI, USA 2024",
-    "dataEquipment": "Kodak Brownie Hawkeye - Kentmere 400 B&W"
-  },
-  {
-    "src": "./photos/213.jpg",
-    "alt": "Image 213",
-    "class": "photo .black&white .35mm",
-    "dataTitle": "Trinken",
-    "dataLocation": "Cincinnati, OH, USA 2024",
-    "dataEquipment": "Nikon N55 - Kentmere 400 B&W"
   },
   {
     "src": "./photos/212.jpg",
     "alt": "Image 212",
     "class": "photo .black&white .35mm",
     "dataTitle": "Pietà",
-    "dataLocation": "Cincinnati, OH, USA 2024",
-    "dataEquipment": "Nikon N55 - Kentmere 400 B&W"
-  },
-  {
-    "src": "./photos/211.jpg",
-    "alt": "Image 211",
-    "class": "photo .black&white .35mm",
-    "dataTitle": "Cincinnati III",
-    "dataLocation": "Cincinnati, OH, USA 2024",
-    "dataEquipment": "Nikon N55 - Kentmere 400 B&W"
-  },
-  {
-    "src": "./photos/210.jpg",
-    "alt": "Image 210",
-    "class": "photo .black&white .35mm",
-    "dataTitle": "Cincinnati II",
     "dataLocation": "Cincinnati, OH, USA 2024",
     "dataEquipment": "Nikon N55 - Kentmere 400 B&W"
   },
@@ -428,14 +341,6 @@
     "alt": "Image 208",
     "class": "photo .black&white .35mm",
     "dataTitle": "Natália XII",
-    "dataLocation": "Cincinnati, OH, USA 2024",
-    "dataEquipment": "Nikon N55 - Kentmere 400 B&W"
-  },
-  {
-    "src": "./photos/207.jpg",
-    "alt": "Image 207",
-    "class": "photo .black&white .35mm",
-    "dataTitle": "Glutão",
     "dataLocation": "Cincinnati, OH, USA 2024",
     "dataEquipment": "Nikon N55 - Kentmere 400 B&W"
   },
@@ -459,7 +364,7 @@
     "src": "./photos/202.jpg",
     "alt": "Image 202",
     "class": "photo .black&white .digital",
-    "dataTitle": "Cincinnati Landscape",
+    "dataTitle": "Cincinnati",
     "dataLocation": "Cincinnati, OH, USA 2024",
     "dataEquipment": "Nikon D40x"
   },
@@ -483,7 +388,7 @@
     "src": "./photos/197.jpg",
     "alt": "Image 197",
     "class": "photo .color .digital",
-    "dataTitle": "Self Portrait V",
+    "dataTitle": "FW Woods III (Self Portrait)",
     "dataLocation": "Fort Wayne, IN, USA 2024",
     "dataEquipment": "Nikon D40x"
   },
@@ -579,23 +484,7 @@
     "src": "./photos/179.jpg",
     "alt": "Image 179",
     "class": "photo .color .digital",
-    "dataTitle": "Vaqueros VII",
-    "dataLocation": "Ligonier, IN, USA 2024",
-    "dataEquipment": "Nikon D40x"
-  },
-  {
-    "src": "./photos/178.jpg",
-    "alt": "Image 178",
-    "class": "photo .color .digital",
-    "dataTitle": "Vaqueros VI",
-    "dataLocation": "Ligonier, IN, USA 2024",
-    "dataEquipment": "Nikon D40x"
-  },
-  {
-    "src": "./photos/177.jpg",
-    "alt": "Image 177",
-    "class": "photo .color .digital",
-    "dataTitle": "Vaqueros V",
+    "dataTitle": "Ligonier (Don Dario)",
     "dataLocation": "Ligonier, IN, USA 2024",
     "dataEquipment": "Nikon D40x"
   },
@@ -603,7 +492,7 @@
     "src": "./photos/175.jpg",
     "alt": "Image 175",
     "class": "photo .color .digital",
-    "dataTitle": "Vaqueros III",
+    "dataTitle": "Ligonier (T&T)",
     "dataLocation": "Ligonier, IN, USA 2024",
     "dataEquipment": "Nikon D40x"
   },
@@ -611,31 +500,15 @@
     "src": "./photos/174.jpg",
     "alt": "Image 174",
     "class": "photo .color .digital",
-    "dataTitle": "Vaqueros II",
+    "dataTitle": "Ligonier",
     "dataLocation": "Ligonier, IN, USA 2024",
-    "dataEquipment": "Nikon D40x"
-  },
-  {
-    "src": "./photos/173.jpg",
-    "alt": "Image 173",
-    "class": "photo .color .digital",
-    "dataTitle": "Vaqueros I",
-    "dataLocation": "Ligonier, IN, USA 2024",
-    "dataEquipment": "Nikon D40x"
-  },
-  {
-    "src": "./photos/170.jpg",
-    "alt": "Image 170",
-    "class": "photo .black&white .digital",
-    "dataTitle": "Johan VI",
-    "dataLocation": "Fort Wayne, IN, USA 2024",
     "dataEquipment": "Nikon D40x"
   },
   {
     "src": "./photos/169.jpg",
     "alt": "Image 169",
     "class": "photo .color .digital",
-    "dataTitle": "Natália XIX",
+    "dataTitle": "Natália",
     "dataLocation": "Fort Wayne, IN, USA 2024",
     "dataEquipment": "Nikon D40x"
   },
@@ -643,7 +516,7 @@
     "src": "./photos/168.jpg",
     "alt": "Image 168",
     "class": "photo .black&white .digital",
-    "dataTitle": "Airhead",
+    "dataTitle": "Johnny Appleseed Festival",
     "dataLocation": "Fort Wayne, IN, USA 2024",
     "dataEquipment": "Nikon D40x"
   },
@@ -651,23 +524,15 @@
     "src": "./photos/167.jpg",
     "alt": "Image 167",
     "class": "photo .color .digital",
-    "dataTitle": "Apple",
+    "dataTitle": "Johnny Appleseed Festival",
     "dataLocation": "Fort Wayne, IN, USA 2024",
-    "dataEquipment": "Nikon D40x"
-  },
-  {
-    "src": "./photos/165.jpg",
-    "alt": "Image 165",
-    "class": "photo .color .digital",
-    "dataTitle": "Parade",
-    "dataLocation": "Ligonier, IN, USA 2024",
     "dataEquipment": "Nikon D40x"
   },
   {
     "src": "./photos/164.jpg",
     "alt": "Image 164",
     "class": "photo .color .digital",
-    "dataTitle": "Johan V",
+    "dataTitle": "Marshmallow Festival",
     "dataLocation": "Ligonier, IN, USA 2024",
     "dataEquipment": "Nikon D40x"
   },
@@ -678,22 +543,6 @@
     "dataTitle": "'Tu es buena onda wey'",
     "dataLocation": "Ligonier, IN, USA 2024",
     "dataEquipment": "Nikon D40x"
-  },
-  {
-    "src": "./photos/162.jpg",
-    "alt": "Image 162",
-    "class": "photo .color .digital",
-    "dataTitle": "Johan IV",
-    "dataLocation": "Ligonier, IN, USA 2024",
-    "dataEquipment": "Nikon D40x"
-  },
-  {
-    "src": "./photos/161.jpg",
-    "alt": "Image 161",
-    "class": "photo .color .35mm",
-    "dataTitle": "Linhares Água",
-    "dataLocation": "Tietê, SP, Brasil 2024",
-    "dataEquipment": "BLUEsky FF102 - Fujifilm 400 Color"
   },
   {
     "src": "./photos/160.jpg",
@@ -715,7 +564,7 @@
     "src": "./photos/157.jpg",
     "alt": "Image 157",
     "class": "photo .color .35mm",
-    "dataTitle": "Cemitório II",
+    "dataTitle": "SAUDADE",
     "dataLocation": "Tietê, SP, Brasil 2024",
     "dataEquipment": "BLUEsky FF102 - Fujifilm 400 Color"
   },
@@ -723,7 +572,7 @@
     "src": "./photos/156.jpg",
     "alt": "Image 156",
     "class": "photo .color .35mm",
-    "dataTitle": "Cemitório I",
+    "dataTitle": "SAUDADE",
     "dataLocation": "Tietê, SP, Brasil 2024",
     "dataEquipment": "BLUEsky FF102 - Fujifilm 400 Color"
   },
@@ -739,23 +588,15 @@
     "src": "./photos/154.jpg",
     "alt": "Image 154",
     "class": "photo .color .35mm",
-    "dataTitle": "Natália VIII",
+    "dataTitle": "Natália",
     "dataLocation": "Tietê, SP, Brasil 2024",
     "dataEquipment": "BLUEsky FF102 - Fujifilm 400 Color"
-  },
-  {
-    "src": "./photos/152.jpg",
-    "alt": "Image 152",
-    "class": "photo .color .digital",
-    "dataTitle": "Galinho",
-    "dataLocation": "Serra Negra, SP, Brasil 2024",
-    "dataEquipment": "Nikon Coolpix S570"
   },
   {
     "src": "./photos/151.jpg",
     "alt": "Image 151",
     "class": "photo .color .35mm",
-    "dataTitle": "Tattoo II",
+    "dataTitle": "Self Portrait",
     "dataLocation": "São Paulo, SP, Brasil 2024",
     "dataEquipment": "Nikon N55 - Fujifilm 400 Color"
   },
@@ -763,7 +604,7 @@
     "src": "./photos/150.jpg",
     "alt": "Image 150",
     "class": "photo .color .35mm",
-    "dataTitle": "Tattoo I",
+    "dataTitle": "Tattoo",
     "dataLocation": "São Paulo, SP, Brasil 2024",
     "dataEquipment": "Nikon N55 - Fujifilm 400 Color"
   },
@@ -824,18 +665,10 @@
     "dataEquipment": "Nikon N55 - Kodacolor Gold 400"
   },
   {
-    "src": "./photos/137.jpg",
-    "alt": "Image 137",
-    "class": "photo .black&white .35mm",
-    "dataTitle": "BOBRA",
-    "dataLocation": "São Paulo, SP, Brasil 2024",
-    "dataEquipment": "Nikon N55 - Kodacolor Gold 400"
-  },
-  {
     "src": "./photos/136.jpg",
     "alt": "Image 136",
     "class": "photo .color .35mm",
-    "dataTitle": "Tranquinagens",
+    "dataTitle": "Condomínio Residencial São Caetano",
     "dataLocation": "São Paulo, SP, Brasil 2024",
     "dataEquipment": "Nikon N55 - Kodacolor Gold 400"
   },
@@ -843,31 +676,7 @@
     "src": "./photos/134.jpg",
     "alt": "Image 134",
     "class": "photo .black&white .35mm",
-    "dataTitle": "YURBANDAY XVI",
-    "dataLocation": "São Paulo, SP, Brasil 2024",
-    "dataEquipment": "Nikon N55 - Illford HP5 Plus 400 B&W"
-  },
-  {
-    "src": "./photos/133.jpg",
-    "alt": "Image 133",
-    "class": "photo .black&white .35mm",
-    "dataTitle": "YURBANDAY XV",
-    "dataLocation": "São Paulo, SP, Brasil 2024",
-    "dataEquipment": "Nikon N55 - Illford HP5 Plus 400 B&W"
-  },
-  {
-    "src": "./photos/132.jpg",
-    "alt": "Image 132",
-    "class": "photo .black&white .35mm",
-    "dataTitle": "YURBANDAY XIV",
-    "dataLocation": "São Paulo, SP, Brasil 2024",
-    "dataEquipment": "Nikon N55 - Illford HP5 Plus 400 B&W"
-  },
-  {
-    "src": "./photos/131.jpg",
-    "alt": "Image 131",
-    "class": "photo .black&white .35mm",
-    "dataTitle": "YURBANDAY XIII",
+    "dataTitle": "guilherme",
     "dataLocation": "São Paulo, SP, Brasil 2024",
     "dataEquipment": "Nikon N55 - Illford HP5 Plus 400 B&W"
   },
@@ -875,15 +684,7 @@
     "src": "./photos/130.jpg",
     "alt": "Image 130",
     "class": "photo .black&white .35mm",
-    "dataTitle": "YURBANDAY XII",
-    "dataLocation": "São Paulo, SP, Brasil 2024",
-    "dataEquipment": "Nikon N55 - Illford HP5 Plus 400 B&W"
-  },
-  {
-    "src": "./photos/129.jpg",
-    "alt": "Image 129",
-    "class": "photo .black&white .35mm",
-    "dataTitle": "YURBANDAY XI",
+    "dataTitle": "guilherme",
     "dataLocation": "São Paulo, SP, Brasil 2024",
     "dataEquipment": "Nikon N55 - Illford HP5 Plus 400 B&W"
   },
@@ -891,15 +692,7 @@
     "src": "./photos/128.jpg",
     "alt": "Image 128",
     "class": "photo .black&white .35mm",
-    "dataTitle": "YURBANDAY X",
-    "dataLocation": "São Paulo, SP, Brasil 2024",
-    "dataEquipment": "Nikon N55 - Illford HP5 Plus 400 B&W"
-  },
-  {
-    "src": "./photos/127.jpg",
-    "alt": "Image 127",
-    "class": "photo .black&white .35mm",
-    "dataTitle": "YURBANDAY XIX",
+    "dataTitle": "guilherme",
     "dataLocation": "São Paulo, SP, Brasil 2024",
     "dataEquipment": "Nikon N55 - Illford HP5 Plus 400 B&W"
   },
@@ -907,15 +700,7 @@
     "src": "./photos/126.jpg",
     "alt": "Image 126",
     "class": "photo .black&white .35mm",
-    "dataTitle": "YURBANDAY VIII",
-    "dataLocation": "São Paulo, SP, Brasil 2024",
-    "dataEquipment": "Nikon N55 - Illford HP5 Plus 400 B&W"
-  },
-  {
-    "src": "./photos/125.jpg",
-    "alt": "Image 125",
-    "class": "photo .black&white .35mm",
-    "dataTitle": "YURBANDAY VII",
+    "dataTitle": "BOBRA",
     "dataLocation": "São Paulo, SP, Brasil 2024",
     "dataEquipment": "Nikon N55 - Illford HP5 Plus 400 B&W"
   },
@@ -923,7 +708,7 @@
     "src": "./photos/124.jpg",
     "alt": "Image 124",
     "class": "photo .black&white .35mm",
-    "dataTitle": "YURBANDAY VI",
+    "dataTitle": "guilherme",
     "dataLocation": "São Paulo, SP, Brasil 2024",
     "dataEquipment": "Nikon N55 - Illford HP5 Plus 400 B&W"
   },
@@ -931,7 +716,7 @@
     "src": "./photos/123.jpg",
     "alt": "Image 123",
     "class": "photo .black&white .35mm",
-    "dataTitle": "YURBANDAY V",
+    "dataTitle": "São Paulo",
     "dataLocation": "São Paulo, SP, Brasil 2024",
     "dataEquipment": "Nikon N55 - Illford HP5 Plus 400 B&W"
   },
@@ -939,7 +724,7 @@
     "src": "./photos/122.jpg",
     "alt": "Image 122",
     "class": "photo .black&white .35mm",
-    "dataTitle": "Hail Pepeka(YURBANDAY IV)",
+    "dataTitle": "Estação Luz (Hail Pepeka)",
     "dataLocation": "São Paulo, SP, Brasil 2024",
     "dataEquipment": "Nikon N55 - Illford HP5 Plus 400 B&W"
   },
@@ -947,7 +732,7 @@
     "src": "./photos/121.jpg",
     "alt": "Image 121",
     "class": "photo .black&white .35mm",
-    "dataTitle": "YURBANDAY III",
+    "dataTitle": "Estação Luz",
     "dataLocation": "São Paulo, SP, Brasil 2024",
     "dataEquipment": "Nikon N55 - Illford HP5 Plus 400 B&W"
   },
@@ -955,15 +740,7 @@
     "src": "./photos/120.jpg",
     "alt": "Image 120",
     "class": "photo .black&white .35mm",
-    "dataTitle": "Guilherme (YURBANDAY II)",
-    "dataLocation": "São Paulo, SP, Brasil 2024",
-    "dataEquipment": "Nikon N55 - Illford HP5 Plus 400 B&W"
-  },
-  {
-    "src": "./photos/119.jpg",
-    "alt": "Image 119",
-    "class": "photo .black&white .35mm",
-    "dataTitle": "YURBANDAY I",
+    "dataTitle": "guilherme",
     "dataLocation": "São Paulo, SP, Brasil 2024",
     "dataEquipment": "Nikon N55 - Illford HP5 Plus 400 B&W"
   },
@@ -987,17 +764,9 @@
     "src": "./photos/116.jpg",
     "alt": "Image 116",
     "class": "photo .color .digital",
-    "dataTitle": "Self Portrait IV",
+    "dataTitle": "Self Portrait",
     "dataLocation": "São Paulo, SP, Brasil 2024",
     "dataEquipment": "Nikon Coolpix S570"
-  },
-  {
-    "src": "./photos/115.jpg",
-    "alt": "Image 115",
-    "class": "photo .color .35mm",
-    "dataTitle": "Manu",
-    "dataLocation": "São Paulo, SP, Brasil 2024",
-    "dataEquipment": "Nikon N55 - Kodacolor Gold 400"
   },
   {
     "src": "./photos/111.jpg",
@@ -1008,30 +777,6 @@
     "dataEquipment": "Nikon N55 - Kodacolor Gold 400"
   },
   {
-    "src": "./photos/110.jpg",
-    "alt": "Image 110",
-    "class": "photo .color .35mm",
-    "dataTitle": "Laranja",
-    "dataLocation": "São Paulo, SP, Brasil 2024",
-    "dataEquipment": "Nikon N55 - Kodacolor Gold 400"
-  },
-  {
-    "src": "./photos/109.jpg",
-    "alt": "Image 109",
-    "class": "photo .color .35mm",
-    "dataTitle": "Buraco",
-    "dataLocation": "São Paulo, SP, Brasil 2024",
-    "dataEquipment": "Nikon N55 - Kodacolor Gold 400"
-  },
-  {
-    "src": "./photos/108.jpg",
-    "alt": "Image 108",
-    "class": "photo .color .digital",
-    "dataTitle": "Martinelli",
-    "dataLocation": "São Paulo, SP, Brasil 2024",
-    "dataEquipment": "Nikon Coolpix S570"
-  },
-  {
     "src": "./photos/107.jpg",
     "alt": "Image 107",
     "class": "photo .color .digital",
@@ -1040,26 +785,10 @@
     "dataEquipment": "Nikon Coolpix S570"
   },
   {
-    "src": "./photos/106.jpg",
-    "alt": "Image 106",
-    "class": "photo .color .digital",
-    "dataTitle": "Fabião",
-    "dataLocation": "São Caetano do Sul, SP, Brasil 2024",
-    "dataEquipment": "Nikon Coolpix S570"
-  },
-  {
-    "src": "./photos/105.jpg",
-    "alt": "Image 105",
-    "class": "photo .color .digital",
-    "dataTitle": "Monk",
-    "dataLocation": "Chicago, IL, USA 2024",
-    "dataEquipment": "Nikon D40x"
-  },
-  {
     "src": "./photos/104.jpg",
     "alt": "Image 104",
     "class": "photo .color .digital",
-    "dataTitle": "Chinatown IX",
+    "dataTitle": "Chinatown",
     "dataLocation": "Chicago, IL, USA 2024",
     "dataEquipment": "Nikon D40x"
   },
@@ -1112,18 +841,10 @@
     "dataEquipment": "Nikon D40x"
   },
   {
-    "src": "./photos/97.jpg",
-    "alt": "Image 97",
-    "class": "photo .color .digital",
-    "dataTitle": "Chinatown II",
-    "dataLocation": "Chicago, IL, USA 2024",
-    "dataEquipment": "Nikon D40x"
-  },
-  {
     "src": "./photos/96.jpg",
     "alt": "Image 96",
     "class": "photo .color .digital",
-    "dataTitle": "Chicago I",
+    "dataTitle": "Chicago",
     "dataLocation": "Chicago, IL, USA 2024",
     "dataEquipment": "Nikon D40x"
   },
@@ -1160,36 +881,12 @@
     "dataEquipment": "Nikon D40x"
   },
   {
-    "src": "./photos/86.jpg",
-    "alt": "Image 86",
-    "class": "photo .black&white .digital",
-    "dataTitle": "Leão",
-    "dataLocation": "St. Joseph, MI, USA 2024",
-    "dataEquipment": "Nikon D40x"
-  },
-  {
-    "src": "./photos/84.jpg",
-    "alt": "Image 84",
-    "class": "photo .black&white .digital",
-    "dataTitle": "Praia",
-    "dataLocation": "St. Joseph, MI, USA 2024",
-    "dataEquipment": "Nikon D40x"
-  },
-  {
     "src": "./photos/83.jpg",
     "alt": "Image 83",
     "class": "photo .color .35mm",
     "dataTitle": "Self Portrait III",
     "dataLocation": "Mishawaka, IN, USA 2024",
     "dataEquipment": "Nikon N55 - Kodacolor Gold 400"
-  },
-  {
-    "src": "./photos/82.jpg",
-    "alt": "Image 82",
-    "class": "photo .color .digital",
-    "dataTitle": "Natália V",
-    "dataLocation": "Mishawaka, IN, USA 2024",
-    "dataEquipment": "Nikon D40x"
   },
   {
     "src": "./photos/81.jpg",
@@ -1203,7 +900,7 @@
     "src": "./photos/78.jpg",
     "alt": "Image 78",
     "class": "photo .color .35mm",
-    "dataTitle": "Chinatown I",
+    "dataTitle": "Chinatown",
     "dataLocation": "Chicago, IL, USA 2024",
     "dataEquipment": "Nikon N55 - Kodacolor Gold 400"
   },
@@ -1219,7 +916,7 @@
     "src": "./photos/75.jpg",
     "alt": "Image 75",
     "class": "photo .color .35mm",
-    "dataTitle": "Johan III",
+    "dataTitle": "Johan",
     "dataLocation": "Chicago, IL, USA 2024",
     "dataEquipment": "Nikon N55 - Kodacolor Gold 400"
   },
@@ -1227,7 +924,7 @@
     "src": "./photos/74.jpg",
     "alt": "Image 74",
     "class": "photo .color .35mm",
-    "dataTitle": "Johan II",
+    "dataTitle": "Johan",
     "dataLocation": "Chicago, IL, USA 2024",
     "dataEquipment": "Nikon N55 - Kodacolor Gold 400"
   },
@@ -1267,7 +964,7 @@
     "src": "./photos/69.jpg",
     "alt": "Image 69",
     "class": "photo .color .35mm",
-    "dataTitle": "Self Portrait II",
+    "dataTitle": "Self Portrait",
     "dataLocation": "Fort Wayne, IN, USA 2024",
     "dataEquipment": "Nikon N55 - Kodacolor Gold 400"
   },
@@ -1280,52 +977,12 @@
     "dataEquipment": "Nikon N55 - Kodacolor Gold 400"
   },
   {
-    "src": "./photos/65.jpg",
-    "alt": "Image 65",
-    "class": "photo .black&white .digital",
-    "dataTitle": "Naïs I",
-    "dataLocation": "Mishawaka, IN, USA 2024",
-    "dataEquipment": "Nikon D40x"
-  },
-  {
-    "src": "./photos/64.jpg",
-    "alt": "Image 64",
-    "class": "photo .black&white .digital",
-    "dataTitle": "Kristhian I",
-    "dataLocation": "Chicago, IL, USA 2024",
-    "dataEquipment": "Nikon D40x"
-  },
-  {
     "src": "./photos/63.jpg",
     "alt": "Image 63",
     "class": "photo .black&white .digital",
     "dataTitle": "The Zoltaress I",
     "dataLocation": "South Bend, IN, USA 2024",
     "dataEquipment": "Nikon D40x"
-  },
-  {
-    "src": "./photos/62.jpg",
-    "alt": "Image 62",
-    "class": "photo .black&white .digital",
-    "dataTitle": "horse_meat",
-    "dataLocation": "Grabill, IN, USA 2024",
-    "dataEquipment": "Nikon D40x"
-  },
-  {
-    "src": "./photos/58.jpg",
-    "alt": "Image 58",
-    "class": "photo .black&white .digital",
-    "dataTitle": "South Bend",
-    "dataLocation": "South Bend, IN, USA 2024",
-    "dataEquipment": "Nikon D40x"
-  },
-  {
-    "src": "./photos/57.jpg",
-    "alt": "Image 57",
-    "class": "photo .color .35mm",
-    "dataTitle": "Pranaav I",
-    "dataLocation": "Fort Wayne, IN, USA 2024",
-    "dataEquipment": "Nikon N55 - Fujifilm 400 Color"
   },
   {
     "src": "./photos/54.jpg",
@@ -1347,7 +1004,7 @@
     "src": "./photos/45.jpg",
     "alt": "Image 45",
     "class": "photo .color .35mm",
-    "dataTitle": "Sangue IV",
+    "dataTitle": "Self Portrait",
     "dataLocation": "Mishawaka, IN, USA 2024",
     "dataEquipment": "Nikon N55 - Fujifilm 400 Color"
   },
@@ -1355,7 +1012,7 @@
     "src": "./photos/42.jpg",
     "alt": "Image 42",
     "class": "photo .color .digital",
-    "dataTitle": "Sangue III",
+    "dataTitle": "Self Portrait",
     "dataLocation": "Mishawaka, IN, USA 2024",
     "dataEquipment": "Nikon Coolpix S570"
   },
@@ -1363,7 +1020,7 @@
     "src": "./photos/40.jpg",
     "alt": "Image 40",
     "class": "photo .color .35mm",
-    "dataTitle": "Sangue II",
+    "dataTitle": "Self Portrait",
     "dataLocation": "Mishawaka, IN, USA 2024",
     "dataEquipment": "Nikon N55 - Fujifilm 400 Color"
   },
@@ -1371,7 +1028,7 @@
     "src": "./photos/38.jpg",
     "alt": "Image 38",
     "class": "photo .color .35mm",
-    "dataTitle": "Sangue I",
+    "dataTitle": "I Killed My Brother",
     "dataLocation": "Mishawaka, IN, USA 2024",
     "dataEquipment": "Nikon N55 - Fujifilm 400 Color"
   },
@@ -1435,7 +1092,7 @@
     "src": "./photos/26.jpg",
     "alt": "Image 26",
     "class": "photo .black&white .digital",
-    "dataTitle": "Taste of the Arts Festival II",
+    "dataTitle": "Taste of the Arts Festival",
     "dataLocation": "Fort Wayne, IN, USA 2023",
     "dataEquipment": "Nikon D40x"
   },
@@ -1443,7 +1100,7 @@
     "src": "./photos/25.jpg",
     "alt": "Image 25",
     "class": "photo .black&white .digital",
-    "dataTitle": "Taste of the Arts Festival II",
+    "dataTitle": "Taste of the Arts Festival",
     "dataLocation": "Fort Wayne, IN, USA 2023",
     "dataEquipment": "Nikon D40x"
   },
@@ -1451,7 +1108,7 @@
     "src": "./photos/23.jpg",
     "alt": "Image 23",
     "class": "photo .color .digital",
-    "dataTitle": "Tast of the Arts Festival I",
+    "dataTitle": "Tast of the Arts Festival",
     "dataLocation": "Fort Wayne, IN, USA 2023",
     "dataEquipment": "Nikon D40x"
   },
@@ -1469,14 +1126,6 @@
     "class": "photo .color .digital",
     "dataTitle": "Residence Inn View",
     "dataLocation": "Chicago, IL, USA 2022",
-    "dataEquipment": "Nikon D40x"
-  },
-  {
-    "src": "./photos/19.jpg",
-    "alt": "Image 19",
-    "class": "photo .color .digital",
-    "dataTitle": "Natália I",
-    "dataLocation": "Fort Wayne, IN, USA 2022",
     "dataEquipment": "Nikon D40x"
   },
   {
@@ -1499,7 +1148,7 @@
     "src": "./photos/14.jpg",
     "alt": "Image 14",
     "class": "photo .color .35mm",
-    "dataTitle": "Roda-Gigante (Seja Inútil) III",
+    "dataTitle": "Boneca",
     "dataLocation": "Tietê, SP, Brasil 2022",
     "dataEquipment": "Yashica Focus Free"
   },
@@ -1507,7 +1156,7 @@
     "src": "./photos/13.jpg",
     "alt": "Image 13",
     "class": "photo .color .35mm",
-    "dataTitle": "Roda-Gigante (Seja Inútil) II",
+    "dataTitle": "guilherme",
     "dataLocation": "Tietê, SP, Brasil 2022",
     "dataEquipment": "Yashica Focus Free"
   },
@@ -1515,7 +1164,7 @@
     "src": "./photos/12.jpg",
     "alt": "Image 12",
     "class": "photo .color .35mm",
-    "dataTitle": "Roda-Gigante (Seja Inútil) II",
+    "dataTitle": "Self Portrait",
     "dataLocation": "Tietê, SP, Brasil 2022",
     "dataEquipment": "Yashica Focus Free"
   },
@@ -1523,7 +1172,7 @@
     "src": "./photos/8.jpg",
     "alt": "Image 8",
     "class": "photo .black&white .digital",
-    "dataTitle": "Cemitério Tietê VI",
+    "dataTitle": "SAUDADE",
     "dataLocation": "Tietê, SP, Brasil 2018",
     "dataEquipment": "Olympus E-450"
   },
@@ -1531,7 +1180,7 @@
     "src": "./photos/7.jpg",
     "alt": "Image 7",
     "class": "photo .black&white .digital",
-    "dataTitle": "Cemitério Tietê V",
+    "dataTitle": "SAUDADE",
     "dataLocation": "Tietê, SP, Brasil 2018",
     "dataEquipment": "Olympus E-450"
   },
@@ -1539,7 +1188,7 @@
     "src": "./photos/6.jpg",
     "alt": "Image 6",
     "class": "photo .black&white .digital",
-    "dataTitle": "Cemitério Tietê IV",
+    "dataTitle": "SAUDADE",
     "dataLocation": "Tietê, SP, Brasil 2018",
     "dataEquipment": "Olympus E-450"
   },
@@ -1547,7 +1196,7 @@
     "src": "./photos/5.jpg",
     "alt": "Image 5",
     "class": "photo .black&white .digital",
-    "dataTitle": "Cemitério Tietê III",
+    "dataTitle": "SAUDADE",
     "dataLocation": "Tietê, SP, Brasil 2018",
     "dataEquipment": "Olympus E-450"
   },
@@ -1555,7 +1204,7 @@
     "src": "./photos/4.jpg",
     "alt": "Image 4",
     "class": "photo .black&white .digital",
-    "dataTitle": "Cemitério Tietê II",
+    "dataTitle": "SAUDADE",
     "dataLocation": "Tietê, SP, Brasil 2018",
     "dataEquipment": "Olympus E-450"
   },
@@ -1563,7 +1212,7 @@
     "src": "./photos/3.jpg",
     "alt": "Image 3",
     "class": "photo .black&white .digital",
-    "dataTitle": "Cemitério Tietê I (Basilio Puttinati)",
+    "dataTitle": "SAUDADE (Basilio Puttinati)",
     "dataLocation": "Tietê, SP, Brasil 2018",
     "dataEquipment": "Olympus E-450"
   },
