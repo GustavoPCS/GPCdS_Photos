@@ -632,6 +632,14 @@ footer a{
         --num-cols: 2;
     }
 
+    img[alt="Photo 293"] {
+        grid-column: span 1 !important;
+    }
+    
+    img[alt="Photo 249"] {
+        grid-column: span 1 !important;
+    }
+
     .scroll-top {
 
         top: 90%;

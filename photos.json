@@ -1,5 +1,150 @@
 [
   {
+    "src": "./photos/302.jpg",
+    "alt": "Photo 302",
+    "class": "photo .black&white .digital",
+    "dataTitle": "8th Ave / W 41st St",
+    "dataLocation": "Manhattan, NY, USA 2025",
+    "dataEquipment": "Nikon D40x"
+  },
+  {
+    "src": "./photos/299.jpg",
+    "alt": "Photo 299",
+    "class": "photo .black&white .digital",
+    "dataTitle": "Manhattan",
+    "dataLocation": "Manhattan, NY, USA 2025",
+    "dataEquipment": "Nikon D40x"
+  },
+  {
+    "src": "./photos/298.jpg",
+    "alt": "Photo 298",
+    "class": "photo .color .35mm",
+    "dataTitle": "5th Avenue",
+    "dataLocation": "Manhattan, NY, USA 2025",
+    "dataEquipment": "Nikon FM - Harman Pheonix 200"
+  },
+  {
+    "src": "./photos/296.jpg",
+    "alt": "Photo 296",
+    "class": "photo .color .35mm grid-row-2",
+    "dataTitle": "Chinatown",
+    "dataLocation": "Manhattan, NY, USA 2025",
+    "dataEquipment": "Nikon FM - Harman Pheonix 200"
+  },
+  {
+    "src": "./photos/295.jpg",
+    "alt": "Photo 295",
+    "class": "photo .black&white .35mm",
+    "dataTitle": "Michigan Avenue",
+    "dataLocation": "Chicago, IL, USA 2025",
+    "dataEquipment": "Nikon FM - Illford HP5 Plus 400"
+  },
+  {
+    "src": "./photos/294.jpg",
+    "alt": "Photo 294",
+    "class": "photo .black&white .35mm",
+    "dataTitle": "Michigan Avenue",
+    "dataLocation": "Chicago, IL, USA 2025",
+    "dataEquipment": "Nikon FM - Illford HP5 Plus 400"
+  },
+  {
+    "src": "./photos/293.jpg",
+    "alt": "Photo 293",
+    "class": "photo .black&white .35mm grid-col-2",
+    "dataTitle": "Michigan Avenue",
+    "dataLocation": "Chicago, IL, USA 2025",
+    "dataEquipment": "Nikon FM - Illford HP5 Plus 400"
+  },
+  {
+    "src": "./photos/292.jpg",
+    "alt": "Photo 292",
+    "class": "photo .black&white .35mm grid-col-2",
+    "dataTitle": "Michigan Avenue",
+    "dataLocation": "Chicago, IL, USA 2025",
+    "dataEquipment": "Nikon FM - Illford HP5 Plus 400"
+  },
+  {
+    "src": "./photos/291.jpg",
+    "alt": "Photo 291",
+    "class": "photo .black&white .35mm",
+    "dataTitle": "Milwakee Avenue",
+    "dataLocation": "Chicago, IL, USA 2025",
+    "dataEquipment": "Nikon FM - Illford HP5 Plus 400"
+  },
+  {
+    "src": "./photos/290.jpg",
+    "alt": "Photo 290",
+    "class": "photo .black&white .35mm",
+    "dataTitle": "Swap-O-Rama",
+    "dataLocation": "Chicago, IL, USA 2025",
+    "dataEquipment": "Nikon FM - Kodak T-Max 400"
+  },
+  {
+    "src": "./photos/289.jpg",
+    "alt": "Photo 289",
+    "class": "photo .black&white .35mm",
+    "dataTitle": "Swap-O-Rama",
+    "dataLocation": "Chicago, IL, USA 2025",
+    "dataEquipment": "Nikon FM - Kodak T-Max 400"
+  },
+  {
+    "src": "./photos/288.jpg",
+    "alt": "Photo 288",
+    "class": "photo .black&white .35mm",
+    "dataTitle": "Swap-O-Rama",
+    "dataLocation": "Chicago, IL, USA 2025",
+    "dataEquipment": "Nikon FM - Kodak T-Max 400"
+  },
+
+  {
+    "src": "./photos/286.jpg",
+    "alt": "Photo 286",
+    "class": "photo .black&white .35mm grid-col-2",
+    "dataTitle": "Swap-O-Rama",
+    "dataLocation": "Chicago, IL, USA 2025",
+    "dataEquipment": "Nikon FM - Kodak T-Max 400"
+  },
+  {
+    "src": "./photos/285.jpg",
+    "alt": "Photo 285",
+    "class": "photo .black&white .35mm",
+    "dataTitle": "Swap-O-Rama",
+    "dataLocation": "Chicago, IL, USA 2025",
+    "dataEquipment": "Nikon FM - Kodak T-Max 400"
+  },
+  {
+    "src": "./photos/284.jpg",
+    "alt": "Photo 284",
+    "class": "photo .black&white .35mm",
+    "dataTitle": "Swap-O-Rama",
+    "dataLocation": "Chicago, IL, USA 2025",
+    "dataEquipment": "Nikon FM - Kodak T-Max 400"
+  },
+  {
+    "src": "./photos/282.jpg",
+    "alt": "Photo 282",
+    "class": "photo .color .35mm",
+    "dataTitle": "Chinatown",
+    "dataLocation": "Chicago, IL, USA 2025",
+    "dataEquipment": "Nikon N50 - LomoChrome Turquoise 400"
+  },
+  {
+    "src": "./photos/281.jpg",
+    "alt": "Photo 281",
+    "class": "photo .color .35mm",
+    "dataTitle": "Chinatown",
+    "dataLocation": "Chicago, IL, USA 2025",
+    "dataEquipment": "Nikon N50 - LomoChrome Turquoise 400"
+  },
+  {
+    "src": "./photos/283.jpg",
+    "alt": "Photo 283",
+    "class": "photo .color .35mm grid-col-2",
+    "dataTitle": "SAUDADE",
+    "dataLocation": "South Bend, IN, USA 2025",
+    "dataEquipment": "Nikon N50 - LomoChrome Turquoise 400"
+  },
+  {
     "src": "./photos/280.jpg",
     "alt": "Photo 280",
     "class": "photo .black&white .digital",
@@ -50,34 +195,10 @@
   {
     "src": "./photos/272.jpg",
     "alt": "Image 272",
-    "class": "photo .black&white .120_film",
+    "class": "photo .black&white .120_film grid-row-2",
     "dataTitle": "PFW Housing II",
     "dataLocation": "Fort Wayne, IN, USA 2025",
     "dataEquipment": "Zenobia C - Illford HP5 Plus 400"
-  },
-  {
-    "src": "./photos/269.jpg",
-    "alt": "Image 269",
-    "class": "photo .black&white .35mm",
-    "dataTitle": "Natália XIII",
-    "dataLocation": "Chicago, IL, USA 2025",
-    "dataEquipment": "Nikon N50 - ArtistaEDU Ultra 200 B&W"
-  },
-  {
-    "src": "./photos/268.jpg",
-    "alt": "Image 268",
-    "class": "photo .black&white .35mm",
-    "dataTitle": "Chicago V",
-    "dataLocation": "Chicago, IL, USA 2025",
-    "dataEquipment": "Nikon N50 - ArtistaEDU Ultra 200 B&W"
-  },
-  {
-    "src": "./photos/267.jpg",
-    "alt": "Image 267",
-    "class": "photo .black&white .35mm",
-    "dataTitle": "Chicago IV",
-    "dataLocation": "Chicago, IL, USA 2025",
-    "dataEquipment": "Nikon N50 - ArtistaEDU Ultra 200 B&W"
   },
   {
     "src": "./photos/265.jpg",
@@ -112,6 +233,14 @@
     "dataEquipment": "Nikon N50 - ArtistaEDU Ultra 200 B&W"
   },
   {
+    "src": "./photos/252.jpg",
+    "alt": "Image 252",
+    "class": "photo .black&white .digital grid-row-2",
+    "dataTitle": "Michigan Avenue",
+    "dataLocation": "Chicago, IL, USA 2025",
+    "dataEquipment": "Nikon D40x"
+  },
+  {
     "src": "./photos/256.jpg",
     "alt": "Image 256",
     "class": "photo .color .digital",
@@ -128,22 +257,6 @@
     "dataEquipment": "Nikon D40x"
   },
   {
-    "src": "./photos/253.jpg",
-    "alt": "Image 253",
-    "class": "photo .black&white .digital",
-    "dataTitle": "Chicago",
-    "dataLocation": "Chicago, IL, USA 2025",
-    "dataEquipment": "Nikon D40x"
-  },
-  {
-    "src": "./photos/252.jpg",
-    "alt": "Image 252",
-    "class": "photo .black&white .digital",
-    "dataTitle": "Michigan Avenue",
-    "dataLocation": "Chicago, IL, USA 2025",
-    "dataEquipment": "Nikon D40x"
-  },
-  {
     "src": "./photos/251.jpg",
     "alt": "Image 251",
     "class": "photo .black&white .digital",
@@ -152,22 +265,21 @@
     "dataEquipment": "Nikon D40x"
   },
   {
-    "src": "./photos/250.jpg",
-    "alt": "Image 250",
-    "class": "photo .black&white .digital",
-    "dataTitle": "Michigan Avenue",
+    "src": "./photos/249.jpg",
+    "alt": "Photo 249",
+    "class": "photo .black&white .digital grid-col-2",
+    "dataTitle": "Chicago",
     "dataLocation": "Chicago, IL, USA 2025",
     "dataEquipment": "Nikon D40x"
   },
   {
-    "src": "./photos/249.jpg",
-    "alt": "Image 249",
-    "class": "photo .black&white .digital",
-    "dataTitle": "Chicago II",
+    "src": "./photos/250.jpg",
+    "alt": "Image 250",
+    "class": "photo .black&white .digital grid-col-2",
+    "dataTitle": "Michigan Avenue",
     "dataLocation": "Chicago, IL, USA 2025",
     "dataEquipment": "Nikon D40x"
   },
-
   {
     "src": "./photos/247.jpg",
     "alt": "Image 247",
@@ -201,18 +313,58 @@
     "dataEquipment": "Nikon D40x"
   },
   {
-    "src": "./photos/243.jpg",
-    "alt": "Image 243",
+    "src": "./photos/250.jpg",
+    "alt": "Image 250",
+    "class": "photo .black&white .digital grid-col-2",
+    "dataTitle": "Michigan Avenue",
+    "dataLocation": "Chicago, IL, USA 2025",
+    "dataEquipment": "Nikon D40x"
+  },
+  {
+    "src": "./photos/247.jpg",
+    "alt": "Image 247",
     "class": "photo .black&white .digital",
-    "dataTitle": "Milwakee Avenue II",
+    "dataTitle": "Chinatown",
+    "dataLocation": "Chicago, IL, USA 2025",
+    "dataEquipment": "Nikon D40x"
+  },
+  {
+    "src": "./photos/246.jpg",
+    "alt": "Image 246",
+    "class": "photo .black&white .digital",
+    "dataTitle": "Chinatown",
+    "dataLocation": "Chicago, IL, USA 2025",
+    "dataEquipment": "Nikon D40x"
+  },
+  {
+    "src": "./photos/245.jpg",
+    "alt": "Image 245",
+    "class": "photo .black&white .digital",
+    "dataTitle": "Milwaukee Avenue",
+    "dataLocation": "Chicago, IL, USA 2025",
+    "dataEquipment": "Nikon D40x"
+  },
+  {
+    "src": "./photos/244.jpg",
+    "alt": "Image 244",
+    "class": "photo .black&white .digital",
+    "dataTitle": "Reckless Records",
     "dataLocation": "Chicago, IL, USA 2025",
     "dataEquipment": "Nikon D40x"
   },
   {
     "src": "./photos/239.jpg",
     "alt": "Image 239",
-    "class": "photo .black&white .digital",
+    "class": "photo .black&white .digital grid-col-2",
     "dataTitle": "Michigan Avenue",
+    "dataLocation": "Chicago, IL, USA 2025",
+    "dataEquipment": "Nikon D40x"
+  },
+  {
+    "src": "./photos/243.jpg",
+    "alt": "Image 243",
+    "class": "photo .black&white .digital",
+    "dataTitle": "Milwakee Avenue II",
     "dataLocation": "Chicago, IL, USA 2025",
     "dataEquipment": "Nikon D40x"
   },
@@ -239,6 +391,14 @@
     "dataTitle": "Pranaav II",
     "dataLocation": "Fort Wayne, IN, USA 2025",
     "dataEquipment": "Nikon Coolpix S570"
+  },
+  {
+    "src": "./photos/88.jpg",
+    "alt": "Image 88",
+    "class": "photo .black&white .digital grid-col-2",
+    "dataTitle": "The Zoltaress II",
+    "dataLocation": "St. Joseph, MI, USA 2024",
+    "dataEquipment": "Nikon D40x"
   },
   {
     "src": "./photos/228.jpg",
@@ -273,18 +433,10 @@
     "dataEquipment": "Nikon N55 - Kentmere 400 B&W"
   },
   {
-    "src": "./photos/222.jpg",
-    "alt": "Image 222",
-    "class": "photo .black&white .35mm",
-    "dataTitle": "The Indigo Society II",
-    "dataLocation": "Fort Wayne, IN, USA 2024",
-    "dataEquipment": "Nikon N55 - Kentmere 400 B&W"
-  },
-  {
     "src": "./photos/221.jpg",
     "alt": "Image 221",
     "class": "photo .black&white .35mm",
-    "dataTitle": "The Indigo Society I",
+    "dataTitle": "The Indigo Society",
     "dataLocation": "Fort Wayne, IN, USA 2024",
     "dataEquipment": "Nikon N55 - Kentmere 400 B&W"
   },
@@ -347,7 +499,7 @@
   {
     "src": "./photos/204.jpg",
     "alt": "Image 204",
-    "class": "photo .black&white .35mm",
+    "class": "photo .black&white .35mm grid-row-2",
     "dataTitle": "The Last Kiss",
     "dataLocation": "Dayton, OH, USA 2024",
     "dataEquipment": "Nikon N55 - Kentmere 400 B&W"
@@ -419,7 +571,7 @@
   {
     "src": "./photos/188.jpg",
     "alt": "Image 188",
-    "class": "photo .color .digital",
+    "class": "photo .color .digital grid-row-2",
     "dataTitle": "Pinball II",
     "dataLocation": "Fort Wayne, IN, USA 2024",
     "dataEquipment": "Nikon D40x"
@@ -427,7 +579,7 @@
   {
     "src": "./photos/187.jpg",
     "alt": "Image 187",
-    "class": "photo .color .digital",
+    "class": "photo .color .digital grid-row-2",
     "dataTitle": "Pinball I",
     "dataLocation": "Fort Wayne, IN, USA 2024",
     "dataEquipment": "Nikon D40x"
@@ -545,18 +697,18 @@
     "dataEquipment": "Nikon D40x"
   },
   {
-    "src": "./photos/160.jpg",
-    "alt": "Image 160",
-    "class": "photo .color .35mm",
-    "dataTitle": "Vó",
+    "src": "./photos/158.jpg",
+    "alt": "Image 158",
+    "class": "photo .color .35mm grid-col-2",
+    "dataTitle": "Moto",
     "dataLocation": "Tietê, SP, Brasil 2024",
     "dataEquipment": "BLUEsky FF102 - Fujifilm 400 Color"
   },
   {
-    "src": "./photos/158.jpg",
-    "alt": "Image 158",
+    "src": "./photos/160.jpg",
+    "alt": "Image 160",
     "class": "photo .color .35mm",
-    "dataTitle": "Moto",
+    "dataTitle": "Vó",
     "dataLocation": "Tietê, SP, Brasil 2024",
     "dataEquipment": "BLUEsky FF102 - Fujifilm 400 Color"
   },
@@ -605,14 +757,6 @@
     "alt": "Image 150",
     "class": "photo .color .35mm",
     "dataTitle": "Tattoo",
-    "dataLocation": "São Paulo, SP, Brasil 2024",
-    "dataEquipment": "Nikon N55 - Fujifilm 400 Color"
-  },
-  {
-    "src": "./photos/149.jpg",
-    "alt": "Image 149",
-    "class": "photo .color .35mm",
-    "dataTitle": "Lente de Contato",
     "dataLocation": "São Paulo, SP, Brasil 2024",
     "dataEquipment": "Nikon N55 - Fujifilm 400 Color"
   },
@@ -681,16 +825,16 @@
     "dataEquipment": "Nikon N55 - Illford HP5 Plus 400 B&W"
   },
   {
-    "src": "./photos/130.jpg",
-    "alt": "Image 130",
-    "class": "photo .black&white .35mm",
+    "src": "./photos/128.jpg",
+    "alt": "Image 128",
+    "class": "photo .black&white .35mm grid-col-2",
     "dataTitle": "guilherme",
     "dataLocation": "São Paulo, SP, Brasil 2024",
     "dataEquipment": "Nikon N55 - Illford HP5 Plus 400 B&W"
   },
   {
-    "src": "./photos/128.jpg",
-    "alt": "Image 128",
+    "src": "./photos/130.jpg",
+    "alt": "Image 130",
     "class": "photo .black&white .35mm",
     "dataTitle": "guilherme",
     "dataLocation": "São Paulo, SP, Brasil 2024",
@@ -721,18 +865,18 @@
     "dataEquipment": "Nikon N55 - Illford HP5 Plus 400 B&W"
   },
   {
-    "src": "./photos/122.jpg",
-    "alt": "Image 122",
-    "class": "photo .black&white .35mm",
-    "dataTitle": "Estação Luz (Hail Pepeka)",
+    "src": "./photos/121.jpg",
+    "alt": "Image 121",
+    "class": "photo .black&white .35mm grid-col-2",
+    "dataTitle": "Estação Luz",
     "dataLocation": "São Paulo, SP, Brasil 2024",
     "dataEquipment": "Nikon N55 - Illford HP5 Plus 400 B&W"
   },
   {
-    "src": "./photos/121.jpg",
-    "alt": "Image 121",
+    "src": "./photos/122.jpg",
+    "alt": "Image 122",
     "class": "photo .black&white .35mm",
-    "dataTitle": "Estação Luz",
+    "dataTitle": "Estação Luz (Hail Pepeka)",
     "dataLocation": "São Paulo, SP, Brasil 2024",
     "dataEquipment": "Nikon N55 - Illford HP5 Plus 400 B&W"
   },
@@ -743,22 +887,6 @@
     "dataTitle": "guilherme",
     "dataLocation": "São Paulo, SP, Brasil 2024",
     "dataEquipment": "Nikon N55 - Illford HP5 Plus 400 B&W"
-  },
-  {
-    "src": "./photos/118.jpg",
-    "alt": "Image 118",
-    "class": "photo .color .digital",
-    "dataTitle": "Guilherme I",
-    "dataLocation": "São Paulo, SP, Brasil 2024",
-    "dataEquipment": "Nikon Coolpix S570"
-  },
-  {
-    "src": "./photos/117.jpg",
-    "alt": "Image 117",
-    "class": "photo .color .digital",
-    "dataTitle": "'Quero matar minha vó'",
-    "dataLocation": "São Paulo, SP, Brasil 2024",
-    "dataEquipment": "Nikon Coolpix S570"
   },
   {
     "src": "./photos/116.jpg",
@@ -775,14 +903,6 @@
     "dataTitle": "Cooking",
     "dataLocation": "São Paulo, SP, Brasil 2024",
     "dataEquipment": "Nikon N55 - Kodacolor Gold 400"
-  },
-  {
-    "src": "./photos/107.jpg",
-    "alt": "Image 107",
-    "class": "photo .color .digital",
-    "dataTitle": "President of Sex",
-    "dataLocation": "São Paulo, SP, Brasil 2024",
-    "dataEquipment": "Nikon Coolpix S570"
   },
   {
     "src": "./photos/104.jpg",
@@ -843,7 +963,7 @@
   {
     "src": "./photos/96.jpg",
     "alt": "Image 96",
-    "class": "photo .color .digital",
+    "class": "photo .color .digital grid-row-2",
     "dataTitle": "Chicago",
     "dataLocation": "Chicago, IL, USA 2024",
     "dataEquipment": "Nikon D40x"
@@ -857,27 +977,11 @@
     "dataEquipment": "Nikon D40x"
   },
   {
-    "src": "./photos/91.jpg",
-    "alt": "Image 91",
-    "class": "photo .color .digital",
-    "dataTitle": "Dinner I",
-    "dataLocation": "Chicago, IL, USA 2024",
-    "dataEquipment": "Nikon D40x"
-  },
-  {
     "src": "./photos/90.jpg",
     "alt": "Image 90",
     "class": "photo .color .digital",
     "dataTitle": "Monkey",
     "dataLocation": "Chicago, IL, USA 2024",
-    "dataEquipment": "Nikon D40x"
-  },
-  {
-    "src": "./photos/88.jpg",
-    "alt": "Image 88",
-    "class": "photo .black&white .digital",
-    "dataTitle": "The Zoltaress II",
-    "dataLocation": "St. Joseph, MI, USA 2024",
     "dataEquipment": "Nikon D40x"
   },
   {
@@ -907,7 +1011,7 @@
   {
     "src": "./photos/76.jpg",
     "alt": "Image 76",
-    "class": "photo .color .35mm",
+    "class": "photo .color .35mm grid-row-2",
     "dataTitle": "Plane",
     "dataLocation": "Chicago, IL, USA 2024",
     "dataEquipment": "Nikon N55 - Kodacolor Gold 400"
@@ -1013,7 +1117,7 @@
     "alt": "Image 42",
     "class": "photo .color .digital",
     "dataTitle": "Self Portrait",
-    "dataLocation": "Mishawaka, IN, USA 2024",
+    "dataLocation": "Mishawaka, IN, USA 2023",
     "dataEquipment": "Nikon Coolpix S570"
   },
   {
@@ -1021,7 +1125,7 @@
     "alt": "Image 40",
     "class": "photo .color .35mm",
     "dataTitle": "Self Portrait",
-    "dataLocation": "Mishawaka, IN, USA 2024",
+    "dataLocation": "Mishawaka, IN, USA 2023",
     "dataEquipment": "Nikon N55 - Fujifilm 400 Color"
   },
   {
@@ -1029,7 +1133,7 @@
     "alt": "Image 38",
     "class": "photo .color .35mm",
     "dataTitle": "I Killed My Brother",
-    "dataLocation": "Mishawaka, IN, USA 2024",
+    "dataLocation": "Mishawaka, IN, USA 2023",
     "dataEquipment": "Nikon N55 - Fujifilm 400 Color"
   },
   {
@@ -1110,22 +1214,6 @@
     "class": "photo .color .digital",
     "dataTitle": "Tast of the Arts Festival",
     "dataLocation": "Fort Wayne, IN, USA 2023",
-    "dataEquipment": "Nikon D40x"
-  },
-  {
-    "src": "./photos/22.jpg",
-    "alt": "Image 22",
-    "class": "photo .color .digital",
-    "dataTitle": "Gigeresque",
-    "dataLocation": "Chicago, IL, USA 2022",
-    "dataEquipment": "Nikon D40x"
-  },
-  {
-    "src": "./photos/20.jpg",
-    "alt": "Image 20",
-    "class": "photo .color .digital",
-    "dataTitle": "Residence Inn View",
-    "dataLocation": "Chicago, IL, USA 2022",
     "dataEquipment": "Nikon D40x"
   },
   {
