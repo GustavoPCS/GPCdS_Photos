@@ -313,46 +313,6 @@
     "dataEquipment": "Nikon D40x"
   },
   {
-    "src": "./photos/250.jpg",
-    "alt": "Image 250",
-    "class": "photo .black&white .digital grid-col-2",
-    "dataTitle": "Michigan Avenue",
-    "dataLocation": "Chicago, IL, USA 2025",
-    "dataEquipment": "Nikon D40x"
-  },
-  {
-    "src": "./photos/247.jpg",
-    "alt": "Image 247",
-    "class": "photo .black&white .digital",
-    "dataTitle": "Chinatown",
-    "dataLocation": "Chicago, IL, USA 2025",
-    "dataEquipment": "Nikon D40x"
-  },
-  {
-    "src": "./photos/246.jpg",
-    "alt": "Image 246",
-    "class": "photo .black&white .digital",
-    "dataTitle": "Chinatown",
-    "dataLocation": "Chicago, IL, USA 2025",
-    "dataEquipment": "Nikon D40x"
-  },
-  {
-    "src": "./photos/245.jpg",
-    "alt": "Image 245",
-    "class": "photo .black&white .digital",
-    "dataTitle": "Milwaukee Avenue",
-    "dataLocation": "Chicago, IL, USA 2025",
-    "dataEquipment": "Nikon D40x"
-  },
-  {
-    "src": "./photos/244.jpg",
-    "alt": "Image 244",
-    "class": "photo .black&white .digital",
-    "dataTitle": "Reckless Records",
-    "dataLocation": "Chicago, IL, USA 2025",
-    "dataEquipment": "Nikon D40x"
-  },
-  {
     "src": "./photos/239.jpg",
     "alt": "Image 239",
     "class": "photo .black&white .digital grid-col-2",
