@@ -1,5 +1,45 @@
 [
   {
+    "src": "./photos/308.jpg",
+    "alt": "Photo 308",
+    "class": "photo .color .35mm",
+    "dataTitle": "Downtown Fort Wayne",
+    "dataLocation": "Fort Wayne, IN, USA 2025",
+    "dataEquipment": "Nikon FM - Fujifilm 400 Color"
+  },
+  {
+    "src": "./photos/307.jpg",
+    "alt": "Photo 307",
+    "class": "photo .color .35mm grid-col-2",
+    "dataTitle": "Downtown Fort Wayne",
+    "dataLocation": "Fort Wayne, IN, USA 2025",
+    "dataEquipment": "Nikon FM - Fujifilm 400 Color"
+  },
+  {
+    "src": "./photos/306.jpg",
+    "alt": "Photo 306",
+    "class": "photo .color .35mm",
+    "dataTitle": "Downtown Fort Wayne",
+    "dataLocation": "Fort Wayne, IN, USA 2025",
+    "dataEquipment": "Nikon FM - Fujifilm 400 Color"
+  },
+  {
+    "src": "./photos/303.jpg",
+    "alt": "Photo 303",
+    "class": "photo .color .35mm",
+    "dataTitle": "Downtown Fort Wayne",
+    "dataLocation": "Fort Wayne, IN, USA 2025",
+    "dataEquipment": "Nikon FM - Fujifilm 400 Color"
+  },
+  {
+    "src": "./photos/304.jpg",
+    "alt": "Photo 304",
+    "class": "photo .color .35mm",
+    "dataTitle": "Downtown Fort Wayne",
+    "dataLocation": "Fort Wayne, IN, USA 2025",
+    "dataEquipment": "Nikon FM - Fujifilm 400 Color"
+  },
+  {
     "src": "./photos/302.jpg",
     "alt": "Photo 302",
     "class": "photo .black&white .digital",
@@ -477,14 +517,6 @@
     "alt": "Image 202",
     "class": "photo .black&white .digital",
     "dataTitle": "Cincinnati",
-    "dataLocation": "Cincinnati, OH, USA 2024",
-    "dataEquipment": "Nikon D40x"
-  },
-  {
-    "src": "./photos/201.jpg",
-    "alt": "Image 201",
-    "class": "photo .black&white .digital",
-    "dataTitle": "Mãe e Pai",
     "dataLocation": "Cincinnati, OH, USA 2024",
     "dataEquipment": "Nikon D40x"
   },
